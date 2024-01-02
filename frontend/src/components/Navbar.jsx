@@ -1,23 +1,17 @@
 import React from 'react';
+import '../styling/Navbar.css'; // import the CSS file
+import logo from '../imgs/logo.png'; // import the logo image
 
 const Navbar = () => {
   return (
-    <div style={{ 
-      display: 'flex', 
-      justifyContent: 'space-between', 
-      padding: '1em', 
-      backgroundColor: '#f8f8f8',
-      position: 'fixed', // Add this line
-      width: '100%', // Add this line
-      top: 0, // Add this line
-      zIndex: 100 // Add this line
-    }}>
-      <div style={{ fontWeight: 'bold' }}>
-        <a href="#!">Ethan Lynch</a>
+    <div className="navbar">
+      <div className="bold">
+        <img src={logo} alt="logo" />
+        
       </div>
 
       <div>
-        <ul style={{ listStyleType: 'none', padding: 0, display: 'flex', gap: '1em' }}>
+        <ul>
           <li><a href="#about">About</a></li>
           <li><a href="#programs">Programs</a></li>
           <li><a href="#testimonials">Testimonials</a></li>
