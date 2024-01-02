@@ -1,14 +1,14 @@
 import React from 'react';
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
-import Homepage from './views/Homepage';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import Homepage from './views/Homepage'; // adjust the path if needed
 
 function App() {
   return (
-    <Router>
-    <Switch>
-      <Route exact path="/" component={Homepage} />
-    </Switch>
-  </Router>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Homepage />} />
+      </Routes>
+    </BrowserRouter>
   );
 }
 
