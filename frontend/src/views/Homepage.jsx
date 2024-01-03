@@ -1,11 +1,13 @@
 import React from 'react';
 import Navbar from '../components/Navbar';
+import Motivation from '../components/Motivation';
+
 const Homepage = () => {
   return(
-<div>
-  <Navbar></Navbar>
-</div>
-
+    <div style={{ position: 'relative' }}>
+      <Navbar />
+      <Motivation />
+    </div>
   );
 };
 

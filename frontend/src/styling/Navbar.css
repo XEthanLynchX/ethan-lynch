@@ -7,21 +7,21 @@
   justify-content: center; /* Center the content */
   align-items: center; /* Center vertically */
   padding: 0.5em 1em;
-  background-color: #000;
+  background-color: #c79a9a;
   color: #fff;
   position: fixed;
-  width: 30%;
-  top: 3%;
-  left: 35%;
-  border-radius: 30px;
+  height: 8%;
+  width: 98%;
+  top: 0%;
   border-color: #ff0000;
-  border-style: solid;
+  border-style: ridge;
+  z-index: 1;
 }
 
 .navbar .bold {
   font-weight: bold;
   margin-top: 10px;
-  width: 30%;
+  width: 40%;
 }
 
 .navbar ul {

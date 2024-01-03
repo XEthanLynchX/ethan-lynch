@@ -7,7 +7,6 @@ const Navbar = () => {
     <div className="navbar">
       <div className="bold">
         <img src={logo} alt="logo" />
-        
       </div>
 
       <div>
