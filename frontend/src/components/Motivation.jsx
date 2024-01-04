@@ -3,7 +3,7 @@ import image1 from '../imgs/image1.jpg';
 import image2 from '../imgs/image2.jpg';
 import image3 from '../imgs/image3.jpg';
 import girl_running from '../vids/girl_running.mp4'; 
-import '../styling/img_vid.css'; // import the CSS file
+import '../styling/style.css'; 
 
 const images = [
   image1, 
@@ -12,9 +12,9 @@ const images = [
 ];
 
 const words = [
-  'Inspire', 
+  'Achieve', 
   'Motivate',
-  'Achieve',
+  'Devlop',
 ];
 
 class Motivation extends React.Component {
@@ -45,7 +45,7 @@ class Motivation extends React.Component {
             alt="Cycling" 
             style={{ objectFit: 'cover', width: '100%', height: '100%' }}
           />
-          <div style={{ position: 'absolute', top: '50%', left: '85%', transform: 'translate(-50%, -50%)', color: 'black', fontSize: '5em', fontWeight: "bold" }}>
+          <div class='text-lightred font-[sans]'  style={{ position: 'absolute', top: '50%', left: '85%', transform: 'translate(-50%, -50%)', color: 'tred', fontSize: '5em', fontWeight: "bold" }}>
             Grow
           </div>
         </div>
@@ -57,7 +57,7 @@ class Motivation extends React.Component {
             muted 
             style={{ objectFit: 'cover', width: '100%', height: '100%' }}
           />
-          <div style={{ position: 'absolute', top: '50%', left: '25%', transform: 'translate(-50%, -50%)', color: 'Red', fontSize: '5em', fontWeight:"bold" font }}>
+          <div class='font-[sans]'style={{ position: 'absolute', top: '50%', left: '25%', transform: 'translate(-50%, -50%)', color: 'Red', fontSize: '5em', fontWeight:"bold", font: "Roboto"  }}>
             & {words[this.state.currentWordIndex]}
           </div>
         </div>

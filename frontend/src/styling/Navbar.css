@@ -11,10 +11,9 @@
   color: #fff;
   position: fixed;
   height: 8%;
-  width: 98%;
+  width: 100%;
   top: 0%;
-  border-color: #ff0000;
-  border-style: ridge;
+  
   z-index: 1;
 }
 
