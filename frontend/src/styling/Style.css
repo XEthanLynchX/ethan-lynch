@@ -2,3 +2,11 @@
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
 
+.progress-bar {
+  background-color: #f02f0d; 
+  height: 60px; 
+  transform-origin: 0 0;
+  position: sticky;
+  top: 3% ;
+  z-index: 1;
+}

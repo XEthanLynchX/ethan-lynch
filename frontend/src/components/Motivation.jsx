@@ -13,8 +13,10 @@ const images = [
 
 const words = [
   'Achieve', 
-  'Motivate',
+  'Conquer',
   'Devlop',
+  'Thrive',
+  'Elevate',
 ];
 
 class Motivation extends React.Component {
@@ -57,7 +59,7 @@ class Motivation extends React.Component {
             muted 
             style={{ objectFit: 'cover', width: '100%', height: '100%' }}
           />
-          <div class='font-[sans]'style={{ position: 'absolute', top: '50%', left: '25%', transform: 'translate(-50%, -50%)', color: 'Red', fontSize: '5em', fontWeight:"bold", font: "Roboto"  }}>
+          <div class='font-[sans]'style={{ position: 'absolute', top: '50%', left: '22%', transform: 'translate(-50%, -50%)', color: 'Red', fontSize: '5em', fontWeight:"bold", font: "Roboto"  }}>
             & {words[this.state.currentWordIndex]}
           </div>
         </div>

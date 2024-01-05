@@ -27,8 +27,9 @@ module.exports = {
 
     },
     fontFamily: {
-      'sans': ['Poppins', 'sans-serif'],
-      'serif': ['Merriweather', 'serif'],
+      'sans': ['Poppins', 'Helvetica', 'Arial', 'sans-serif'],
+      'serif': ['Merriweather', 'Georgia', 'Times New Roman', 'serif'],
+      'mono': ['Inconsolata', 'Menlo', 'Monaco', 'monospace'],
     },
   },
 },

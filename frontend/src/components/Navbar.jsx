@@ -1,6 +1,8 @@
 import React from 'react';
 import '../styling/Navbar.css'; // import the CSS file
+import '../styling/style.css'; // import the CSS file
 import logo from '../imgs/logo.png'; // import the logo image
+import { motion } from "framer-motion"
 
 const Navbar = () => {
   return (
@@ -9,7 +11,7 @@ const Navbar = () => {
         <img src={logo} alt="logo" />
       </div>
 
-      <div class="font-semibold">
+      <div class="font-semibold font-[monospace] text text-xl">
         <ul>
           <li><a href="#about">About</a></li>
           <li><a href="#programs">Programs</a></li>

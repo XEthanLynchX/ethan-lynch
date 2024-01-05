@@ -12,6 +12,7 @@
   "dependencies": {
     "autoprefixer": "^10.4.16",
     "cors": "^2.8.5",
+    "framer-motion": "^10.17.6",
     "postcss": "^8.4.32",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
