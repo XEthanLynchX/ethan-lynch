@@ -10,3 +10,19 @@
   top: 3% ;
   z-index: 1;
 }
+
+::-webkit-scrollbar {
+  width: 15px;
+}
+
+::-webkit-scrollbar-track {
+  background: #c79a9a; 
+}
+ 
+::-webkit-scrollbar-thumb {
+  background: #eb0808; 
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #cc0d0d; 
+}

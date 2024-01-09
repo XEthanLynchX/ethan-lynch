@@ -56,25 +56,25 @@ const About = () => {
           <h4 className="text-4xl text-black leading-relaxed m-4 font-[Merriweather] font-semibold "> Physical </h4>
 
           <p className="text-xl text-black leading-relaxed m-4 font-[Georgia]">
-            The physical benefits of exercise are undeniable. With time and consistency, you will see improvements in your strength, endurance, and overall appearence. You will also experience increased energy levels, improved sleep quality, and reduced stress. 
+            The physical benefits of exercise are undeniable. With time and consistency, you will see improvements cardiovascular health, muscle tone, and overall physical well-being. You will experience increased energy levels, improved sleep quality, and reduced stress. Exercise has been shown to boost the immune system, reduce the risk of chronic disease, and improve longevity. 
           </p>
 
           <h4 className="text-4xl text-black leading-relaxed m-4 font-[Merriweather] font-semibold "> Mental </h4>
 
           <p className="text-xl text-black leading-relaxed m-4 font-[Georgia]">
-            Exercise has been shown to improve mental health. It can help reduce anxiety, depression, and negative mood. It can also improve self-esteem and cognitive function. This is scientifically documented through the release of endorphins in the brain. Learning to navigate emotions in a heathly way enhances your overall well-being and creates a foundation for lasting happiness.
+            Exercise has been shown to improve mental health. It can help reduce anxiety, depression, and negative mood. It can also improve self-esteem and cognitive function. Exercise has been scientifically documented to stimulate the release of endorphins in the brain. Learning to navigate emotions in a heathly way enhances your overall well-being and creates a foundation for lasting happiness.
           </p>
 
           <h4 className="text-4xl text-black leading-relaxed m-4 font-[Merriweather] font-semibold "> Discipline </h4>
 
           <p className="text-xl text-black leading-relaxed m-4 font-[Georgia]">
-            Positive change in lifestyle habits contributes to enhanced mental clarity and focus.
+          Regular exercise builds discipline by establishing a structured routine and fostering commitment to physical well-being. Achieving fitness goals instills resilience and perseverance, translating into disciplined habits that benefit various aspects of life. The mental focus developed through exercise positively influences decision-making and productivity, contributing to an overall sense of discipline.
           </p> 
 
           <h4 className="text-4xl text-black leading-relaxed m-4 font-[Merriweather] font-semibold "> Social </h4>
 
           <p className="text-xl text-black leading-relaxed m-4 font-[Georgia]">
-            Exercise can help you meet new people and build new relationships. It can also help you strengthen existing relationships. 
+          Regular exercise serves as a dynamic avenue for forging new friendships. Joining a gym creates a natural setting for socializing, allowing individuals to connect with like-minded peers who share common health and wellness goals. The shared experience of working towards fitness objectives can facilitate the formation of meaningful connections, transforming workout partners into friends. The supportive environment of fitness communities not only promotes physical well-being but also provides a social platform for expanding one's social circle and cultivating lasting friendships.
           </p>
 
         

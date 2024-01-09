@@ -47,7 +47,7 @@ class Motivation extends React.Component {
             alt="Cycling" 
             style={{ objectFit: 'cover', width: '100%', height: '100%' }}
           />
-          <div class='text-lightred font-[sans]'  style={{ position: 'absolute', top: '50%', left: '85%', transform: 'translate(-50%, -50%)', color: 'tred', fontSize: '5em', fontWeight: "bold" }}>
+          <div class='text-lightred font-[sans]'  style={{ position: 'absolute', top: '50%', left: '85%', transform: 'translate(-50%, -50%)', color: 'red', fontSize: '5em', fontWeight: "bold" }}>
             Grow
           </div>
         </div>
@@ -59,7 +59,7 @@ class Motivation extends React.Component {
             muted 
             style={{ objectFit: 'cover', width: '100%', height: '100%' }}
           />
-          <div class='font-[sans]'style={{ position: 'absolute', top: '50%', left: '22%', transform: 'translate(-50%, -50%)', color: 'Red', fontSize: '5em', fontWeight:"bold", font: "Roboto"  }}>
+          <div class=' text-lightred font-[sans]'style={{ position: 'absolute', top: '50%', left: '22%', transform: 'translate(-50%, -50%)', fontSize: '5em', fontWeight:"bold", font: "Roboto"  }}>
             & {words[this.state.currentWordIndex]}
           </div>
         </div>
