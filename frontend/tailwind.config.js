@@ -23,7 +23,8 @@ module.exports = {
       'silver': '#ecebff',
       'bubble-gum': '#ff77e9',
       'bermuda': '#78dcca',
-      'lightred': '#f87171'
+      'lightred': '#f87171',
+      'red': '#dc2626',
 
     },
     fontFamily: {

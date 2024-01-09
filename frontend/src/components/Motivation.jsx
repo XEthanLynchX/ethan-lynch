@@ -40,27 +40,27 @@ class Motivation extends React.Component {
 
   render() {
     return (
-      <div style={{ display: 'flex', }}>
-        <div style={{ position: 'relative', width: '50%', height: '100%' }}>
-          <img 
-            src={images[this.state.currentImageIndex]} 
-            alt="Cycling" 
-            style={{ objectFit: 'cover', width: '100%', height: '100%' }}
-          />
-          <div class='text-lightred font-[sans]'  style={{ position: 'absolute', top: '50%', left: '85%', transform: 'translate(-50%, -50%)', color: 'red', fontSize: '5em', fontWeight: "bold" }}>
-            Grow
-          </div>
-        </div>
-        <div style={{ position: 'relative', width: '50%', height: '100%' }}>
+      <div className="flex flex-col-reverse md:flex-row">
+        <div className="w-full md:w-1/2 relative">
           <video 
-            src={girl_running} // use the imported video file
+            src={girl_running} 
             autoPlay 
             loop 
             muted 
-            style={{ objectFit: 'cover', width: '100%', height: '100%' }}
+            className="object-cover w-full h-full"
           />
-          <div class=' text-lightred font-[sans]'style={{ position: 'absolute', top: '50%', left: '22%', transform: 'translate(-50%, -50%)', fontSize: '5em', fontWeight:"bold", font: "Roboto"  }}>
-            & {words[this.state.currentWordIndex]}
+          <div className="text-red font-[sans] absolute top-1/2 left-3/4 transform -translate-x-1/2  -translate-y-1/2 text-8xl font-bold">
+            Grow
+          </div>
+        </div>
+        <div className="w-full md:w-1/2 relative">
+          <img 
+            src={images[this.state.currentImageIndex]} 
+            alt="Cycling" 
+            className="object-cover w-full h-full"
+          />
+          <div className="text-lightred font-[sans] absolute top-1/2 left-1/4 transform -translate-x-1/2 -translate-y-1/2 text-8xl font-bold">
+          & {words[this.state.currentWordIndex]}
           </div>
         </div>
       </div>
