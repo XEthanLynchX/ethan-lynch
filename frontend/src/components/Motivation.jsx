@@ -40,7 +40,7 @@ class Motivation extends React.Component {
 
   render() {
     return (
-      <div className="flex flex-col-reverse md:flex-row">
+      <div className="flex flex-col md:flex-row">
         <div className="w-full md:w-1/2 relative">
           <video 
             src={girl_running} 
@@ -49,7 +49,7 @@ class Motivation extends React.Component {
             muted 
             className="object-cover w-full h-full"
           />
-          <div className="text-red font-[sans] absolute top-1/2 left-3/4 transform -translate-x-1/2  -translate-y-1/2 text-8xl font-bold">
+          <div className="text-red font-[sans] absolute top-1/2 left-2/4 transform -translate-x-1/2  -translate-y-1/2 text-8xl font-bold">
             Grow
           </div>
         </div>
@@ -59,7 +59,7 @@ class Motivation extends React.Component {
             alt="Cycling" 
             className="object-cover w-full h-full"
           />
-          <div className="text-lightred font-[sans] absolute top-1/2 left-1/4 transform -translate-x-1/2 -translate-y-1/2 text-8xl font-bold">
+          <div className="text-lightred font-[sans] absolute top-1/2 left-2/4 transform -translate-x-1/2 -translate-y-1/2 text-8xl font-bold">
           & {words[this.state.currentWordIndex]}
           </div>
         </div>
