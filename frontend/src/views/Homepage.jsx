@@ -2,6 +2,7 @@ import React from 'react';
 import Navbar from '../components/Navbar';
 import Motivation from '../components/Motivation';
 import About from '../components/About';
+import Programs from '../components/Programs';
 import { motion, useScroll, useSpring } from 'framer-motion';
 import '../styling/style.css';
 
@@ -17,15 +18,20 @@ const Homepage = () => {
     <div>
       <motion.div className="progress-bar" style={{ scaleX }} />
 
-      {/* Include the Navbar component */}
+     
+      
       <Navbar />
 
-      {/* Include the Motivation component */}
       <Motivation />
 
-      {/* Include the About component */}
-      <About />
+      <div id="about"> 
+        <About />
+      </div>
 
+      <div id="programs">
+        <Programs />
+      </div>
+      
 
     </div>
   );
