@@ -27,3 +27,12 @@
   background: #cc0d0d; 
 }
 
+ul.custom-bullet {
+  list-style-type: none;
+}
+
+ul.custom-bullet li::before {
+  content: "₪"; 
+  display: inline-block;
+  margin-right: 10px;
+}
