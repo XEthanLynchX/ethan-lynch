@@ -29,11 +29,11 @@ const About = () => {
           <h4 className="text-4xl text-black leading-relaxed m-4 font-[Merriweather] font-semibold "> Science-Based </h4>
 
           <p className="text-xl text-black leading-relaxed m-4 font-[Georgia]">
-            We believe in a science-based approach to fitness and nutrition. This includes perfecting technique, form, and posture to maximize results and minimize injury. We also believe in a holistic approach to fitness, which includes nutrition, sleep, and stress management. 
+            I believe in a science-based approach to fitness and nutrition. This includes perfecting technique, form, and posture to maximize results and minimize injury. We also believe in a holistic approach to fitness, which includes nutrition, sleep, and stress management. 
           </p>
 
           <h4 className="text-4xl text-black leading-relaxed m-4 font-[Merriweather] font-semibold "> What Works For You </h4>
-          <p className="text-xl text-black leading-relaxed m-4 mt- font-[Georgia]">Discover a wellness plan tailored to your unique schedule and lifestyle. Our approach involves crafting a personalized fitness and nutrition strategy that fits seamlessly into your daily routine. We prioritize individualization, ensuring you receive a plan that aligns with your specific needs and goals. </p>
+          <p className="text-xl text-black leading-relaxed m-4 mt- font-[Georgia]">Discover a wellness plan tailored to your unique schedule and lifestyle. My approach involves crafting a personalized fitness and nutrition strategy that fits seamlessly into your daily routine. We prioritize individualization, ensuring you receive a plan that aligns with your specific needs and goals. </p>
 
           <h4 className="text-4xl text-black leading-relaxed m-4 font-[Merriweather] font-semibold "> Lifelong Wellness Habits </h4>
 
@@ -58,7 +58,7 @@ const About = () => {
 
         <div className="w-full md:w-1/2 p-8">
 
-          <div ><h2 className="text-6xl text-black leading-relaxed m-4 font-[Merriweather] font-bold mb-10 ">The Benefits of Our Coaching </h2></div>
+          <div ><h2 className="text-6xl text-black leading-relaxed m-4 font-[Merriweather] font-bold mb-10 ">The Benefits of Pro Coaching </h2></div>
 
           <h4 className="text-4xl text-black leading-relaxed m-4 font-[Merriweather] font-semibold "> Physical </h4>
 
