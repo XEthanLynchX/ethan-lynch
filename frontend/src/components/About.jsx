@@ -20,7 +20,7 @@ const images = [
 
 const About = () => {
   return (
-    <div className="flex flex-col items-center justify-center bg-lightred">
+    <div className="flex flex-col items-center justify-center bg-berige">
 
       <div className="flex flex-col md:flex-row items-center justify-center w-full">
         <div className="w-full md:w-1/2 p-10">
@@ -90,9 +90,9 @@ const About = () => {
         
       </div>
 
-      <div className="flex flex-col md:flex-row items-center justify-center w-full">
+      <div className="flex flex-col md:flex-row items-center justify-center w-full border-b-4 border-black mb-20">
       <div className="w-full md:w-1/2 p-10">
-          <div ><h2 className="text-6xl text-black leading-relaxed m-4 font-[Merriweather] font-bold mb-10 ">About Me</h2></div>
+          <div ><h2 className="text-6xl text-black leading-relaxed m-4 font-[Merriweather] font-bold mb-10 border-b-6 ">About Me</h2></div>
 
           <h4 className="text-4xl text-black leading-relaxed m-4 font-[Merriweather] font-semibold "> Who Am I</h4>
 

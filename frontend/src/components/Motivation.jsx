@@ -59,7 +59,7 @@ class Motivation extends React.Component {
             alt="Cycling" 
             className="object-cover w-full h-full"
           />
-          <div className="text-lightred font-[sans] absolute top-1/2 left-2/4 transform -translate-x-1/2 -translate-y-1/2 text-8xl font-bold">
+          <div className="text-red font-[sans] absolute top-1/2 left-2/4 transform -translate-x-1/2 -translate-y-1/2 text-8xl font-bold">
           & {words[this.state.currentWordIndex]}
           </div>
         </div>

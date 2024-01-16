@@ -25,6 +25,17 @@ module.exports = {
       'bermuda': '#78dcca',
       'lightred': '#f87171',
       'red': '#dc2626',
+      'orange': '#fbbf24',
+      'yellow': '#facc15',
+      'green': '#10b981',
+      'teal': '#14b8a6',
+      'blue': '#3b82f6',
+      'indigo': '#6366f1',
+      'purple': '#8b5cf6',
+      "berige": "#d9b382",
+      "dark": "#1a1a1a",
+      "gray": "#3a3b3c",
+      
 
     },
     fontFamily: {
