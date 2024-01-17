@@ -13,10 +13,10 @@ const Navbar = () => {
 
       <div class="font-semibold font-[monospace] text-black text-xl">
         <ul>
-          <li><a href="#about">About</a></li>
-          <li><a href="#programs">Programs</a></li>
-          <li><a href="#testimonials">Testimonials</a></li>
-          <li><a href="#contact">Contact</a></li>
+          <li className='transition duration-200 ease-in-out transform hover:-translate-y-1 hover:scale-110'><a href="#about"  >About</a></li>
+          <li className='transition duration-200 ease-in-out transform hover:-translate-y-1 hover:scale-110'><a href="#programs">Programs</a></li>
+          <li className='transition duration-200 ease-in-out transform hover:-translate-y-1 hover:scale-110'><a href="#testimonials">Testimonials</a></li>
+          <li className='transition duration-200 ease-in-out transform hover:-translate-y-1 hover:scale-110'><a href="#contact">Contact</a></li>
         </ul>
       </div>
     </div>

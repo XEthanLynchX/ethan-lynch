@@ -3,7 +3,7 @@
 @import 'tailwindcss/utilities';
 
 .progress-bar {
-  background-color: #f02f0d; 
+  background-color: #1a1a1a; 
   height: 60px; 
   transform-origin: 0 0;
   position: sticky;
@@ -16,11 +16,11 @@
 }
 
 ::-webkit-scrollbar-track {
-  background: #1a1a1a; 
+  background: #d9b382; 
 }
  
 ::-webkit-scrollbar-thumb {
-  background: #eb0808; 
+  background: #1a1a1a; 
 }
 
 ::-webkit-scrollbar-thumb:hover {
