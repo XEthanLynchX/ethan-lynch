@@ -29,19 +29,19 @@ const About = () => {
           <h4 className="text-4xl text-black leading-relaxed m-4 font-[Merriweather] font-semibold "> Science-Based </h4>
 
           <p className="text-xl text-black leading-relaxed m-4 font-[Georgia]">
-            I believe in a science-based approach to fitness and nutrition. This includes perfecting technique, form, and posture to maximize results and minimize injury. We also believe in a holistic approach to fitness, which includes nutrition, sleep, and stress management. 
+            I believe in a science-based approach to fitness and nutrition. This includes perfecting technique, form, and posture to maximize results and minimize injury. I also believe in a holistic approach to fitness, which includes nutrition, sleep, and stress management. 
           </p>
 
           <h4 className="text-4xl text-black leading-relaxed m-4 font-[Merriweather] font-semibold "> What Works For You </h4>
-          <p className="text-xl text-black leading-relaxed m-4 mt- font-[Georgia]">Discover a wellness plan tailored to your unique schedule and lifestyle. My approach involves crafting a personalized fitness and nutrition strategy that fits seamlessly into your daily routine. We prioritize individualization, ensuring you receive a plan that aligns with your specific needs and goals. </p>
+          <p className="text-xl text-black leading-relaxed m-4 mt- font-[Georgia]">Discover a wellness plan tailored to your unique schedule and lifestyle. My approach involves crafting a personalized fitness and nutrition strategy that fits seamlessly into your daily routine. I prioritize individualization, ensuring you receive a plan that aligns with your specific needs and goals. </p>
 
           <h4 className="text-4xl text-black leading-relaxed m-4 font-[Merriweather] font-semibold "> Lifelong Wellness Habits </h4>
 
-          <p className="text-xl text-black leading-relaxed m-4 font-[Georgia]">We believe in a sustainable approach to fitness and nutrition. We don't believe in quick fixes or fad diets. We believe in creating a lifestyle that you can maintain for the long-term. </p>
+          <p className="text-xl text-black leading-relaxed m-4 font-[Georgia]">I believe in a sustainable approach to fitness and nutrition. There is no quick fixes or fad diets. I will teach how to live a lifestyle that you can maintain for the long-term. </p>
 
           <h4 className="text-4xl text-black leading-relaxed m-4 font-[Merriweather] font-semibold "> Mindful Performance </h4>
 
-          <p className="text-xl text-black leading-relaxed m-4 mt- font-[Georgia]">In our coaching approach, we emphasize the importance of mindfulness for mental resilience. By fostering a strong mind-body connection, individuals can optimize their performance potential. Through the incorporation of stress management techniques, we promote overall well-being, creating a holistic framework for sustained success in both fitness and life. </p>
+          <p className="text-xl text-black leading-relaxed m-4 mt- font-[Georgia]">In My coaching approach, I emphasize the importance of mindfulness for mental resilience. By fostering a strong mind-body connection, individuals can optimize their performance potential. Through the incorporation of stress management techniques, together we'll promote overall well-being, creating a holistic framework for sustained success in both fitness and life. </p>
 
         </div>
         <div className="w-full md:w-1/2">
