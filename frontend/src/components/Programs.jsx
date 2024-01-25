@@ -5,6 +5,7 @@ import Program2 from '../imgs/Program2.jpg';
 import Program3 from '../imgs/Program3.jpg';
 import Program4 from '../imgs/Program4.png';
 import Program5 from '../imgs/Program5.png';
+import Program6 from '../imgs/Program6.png';
 
 const Programs = () => {
   return (
@@ -29,7 +30,7 @@ const Programs = () => {
             </div>
             <div className="w-full md:w-1/3 p-4 mt-20 transition duration-200 ease-in-out transform hover:-translate-y-1 hover:scale-110">
               <div className="border-0 border-black rounded p-4 shadow-2xl bg-berige " > 
-                <h3 className="text-3xl font-bold mb-4 font-[Merriweather]" >Custom Workout Routine</h3>
+                <h3 className="text-3xl font-bold mb-4 font-[Merriweather]" >Training Programs</h3>
                 <h6 className="italic mb-4 -mt-4 font-semibold font-[Georgia] ">Available WorldWide</h6>         
                 <img src={Program1} alt="Custom Workout Routine" className="object-cover w-full h-96 border-8 border-black rounded-lg" />
                 <p className="text-xl mt-4 font-[Georgia]" > Discover the impact of a personalized workout plan. Through my tailored approach, we'll create a fitness routine that matches your goals, fits your schedule, and keeps you motivated on the path to a healthier, stronger you.</p>
@@ -143,7 +144,7 @@ const Programs = () => {
               <div className="w-1/2 p-2 bg-gray-200 relative flex flex-col">
                 <img src={Program5} alt="Workout" className="w-full h-full" />
                 <div className='bg-dark'>
-                  <h2 className="text-3xl text-white leading-relaxed font-[merriweahter] font-bold">Optimal Bros</h2>
+                  <h2 className="text-3xl text-white leading-relaxed font-[merriweahter] font-bold">Men's Program</h2>
                   <p className=" text-xl text-white leading-relaxed font-[merriweahter]  ">This program prioritizes hypertrophy, aiming for balanced muscle development. It involves continuous programming tailored to optimize training using a science-based approach.</p>
                   
                   </div>
@@ -154,7 +155,7 @@ const Programs = () => {
               <div className="w-1/2 p-2 bg-gray-200 relative flex flex-col">
                 <img src={Program4} alt="Workout" className="w-full h-full" />
                 <div className='bg-dark'>
-                  <h2 className="text-3xl text-white leading-relaxed font-[merriweahter] font-bold">Optimal Gals</h2>
+                  <h2 className="text-3xl text-white leading-relaxed font-[merriweahter] font-bold">Women's Program</h2>
                   <p className="text-xl text-white leading-relaxed font-[merriweahter] ">
                 This program places particular emphasis on lower body and back development, targeting the glutes, lats, and delts to achieve a well-rounded V-taper, especially beneficial for women.</p>
                 </div>
@@ -173,16 +174,27 @@ const Programs = () => {
             </ul>
           </div>
 
-          <div className="w-full  md:w-1/2 p-4 border-b-2  border-black md:border-b-0 shadow-2xl mt-16" id='diet'>
-            <h3 className="text-6xl font-bold mb-4 font-[Merriweather] text-center mt-8 mb-8 ">Nutrition Plan</h3>
-            <ul className="custom-bullet list-inside text-2xl text-black leading-relaxed m-4 font-[merriweahter] font-semibold ">
+          <div className="w-full md:w-1/2 p-4 border-b-2 border-black md:border-b-0 shadow-2xl mt-16" id='diet'>
+            <div className="w-full p-4 bg-gray-200 relative flex flex-col items-center justify-center">
+              <img src={Program6} alt="Workout" className="w-1/2 h-full bg-cover" />
+              <div className='bg-dark text-center w-1/2 h-full'>
+                <h2 className="text-3xl text-white leading-relaxed font-[merriweahter] font-bold">Nutritional Plan</h2>
+                <p className="text-xl text-white leading-relaxed font-[merriweahter]">
+                This nutrition plan is meticulously crafted to align with your fitness goals. It focuses on optimizing your dietary intake through personalized and science-based strategies, ensuring you receive the essential nutrients needed to support your overall well-being and achieve your desired physique.</p>
+              </div>
+              <button href="#Private" className="bg-lightred text-white font-bold py-2 px-4 rounded transition duration-200 ease-in-out transform hover:-translate-y-1 hover:scale-105 w-1/2 mt-2"> Purchase</button>
+            </div>
+
+            <h3 className="text-6xl font-bold mb-4 font-[Merriweather] text-center mt-8 mb-8">Nutrition Plan</h3>
+            <ul className="custom-bullet list-inside text-2xl text-black leading-relaxed m-4 font-[merriweahter] font-semibold">
+            <h4 className= "text-4xl font-bold mb-4 font-[Merriweather] text-left mt-8"> What's Included: ✔️ </h4>
               <li>Personalized nutrition plan tailored to your specific goals, needs, and lifestyle</li>
               <li>Customized meal plan designed to help you achieve your goals</li>
               <li>Learn how to eat healthy and make the right food choices</li>
               <li>Learn how to read food labels and understand nutrition facts</li>
               <li>Learn how to make healthy food choices when eating out</li>
             </ul>
-        </div>
+          </div>
       </div>
     </div>
   );
