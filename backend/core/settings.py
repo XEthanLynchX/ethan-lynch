@@ -25,6 +25,9 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'corsheaders',
     'djstripe',
+    'rest_framework',
+    'user_checkout',
+    
 ]
 
 MIDDLEWARE = [
@@ -38,7 +41,7 @@ MIDDLEWARE = [
     'corsheaders.middleware.CorsMiddleware',
 ]
 
-ROOT_URLCONF = 'personal_training.urls'
+ROOT_URLCONF = 'core.urls'
 
 TEMPLATES = [
     {
@@ -56,10 +59,9 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'personal_training.wsgi.application'
+WSGI_APPLICATION = 'core.wsgi.application'
 
-# Database
-# https://docs.djangoproject.com/en/5.0/ref/settings/#databases
+
 
 DATABASES = {
     'default': {
@@ -68,8 +70,6 @@ DATABASES = {
     }
 }
 
-# Password validation
-# https://docs.djangoproject.com/en/5.0/ref/settings/#auth-password-validators
 
 AUTH_PASSWORD_VALIDATORS = [
     {
@@ -86,8 +86,14 @@ AUTH_PASSWORD_VALIDATORS = [
     },
 ]
 
-# Internationalization
-# https://docs.djangoproject.com/en/5.0/topics/i18n/
+REST_FRAMEWORK = {
+  
+    'DEFAULT_PEREMISSION_CLASSES': (
+        'rest_framework.permissions.AllowAny',
+    ),
+}
+
+
 
 LANGUAGE_CODE = 'en-us'
 
@@ -97,13 +103,11 @@ USE_I18N = True
 
 USE_TZ = True
 
-# Static files (CSS, JavaScript, Images)
-# https://docs.djangoproject.com/en/5.0/howto/static-files/
+
 
 STATIC_URL = 'static/'
 
-# Default primary key field type
-# https://docs.djangoproject.com/en/5.0/ref/settings/#default-auto-field
+SITE_URL = 'http://localhost:5173'
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 

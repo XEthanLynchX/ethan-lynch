@@ -6,6 +6,7 @@ import Programs from '../components/Programs';
 import { motion, useScroll, useSpring } from 'framer-motion';
 import '../styling/style.css';
 
+
 const Homepage = () => {
   const { scrollYProgress } = useScroll();
   const scaleX = useSpring(scrollYProgress, {
@@ -31,6 +32,8 @@ const Homepage = () => {
       <div id="programs">
         <Programs />
       </div>
+
+      
       
 
     </div>

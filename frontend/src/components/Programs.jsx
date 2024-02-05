@@ -6,8 +6,27 @@ import Program3 from '../imgs/Program3.jpg';
 import Program4 from '../imgs/Program4.png';
 import Program5 from '../imgs/Program5.png';
 import Program6 from '../imgs/Program6.png';
+import ELCLogo1 from '../imgs/ELCLogo1.jpeg';
+import ELCLogo2 from '../imgs/ELCLogo2.jpeg';
+import { useEffect } from 'react';
 
 const Programs = () => {
+
+  useEffect(() => {
+    // Check to see if this is a redirect back from Checkout
+    const query = new URLSearchParams(window.location.search);
+
+    if (query.get("success")) {
+      console.log("Order placed! You will receive an email confirmation.");
+    }
+
+    if (query.get("canceled")) {
+      console.log(
+        "Order canceled -- continue to shop around and checkout when you're ready."
+      );
+    }
+  }, []);
+  
   return (
       <div className="p-8 bg-berige text-" id="programs">
           <h2 className="text-8xl font-bold text-black text-left mb-20 bg-berige" > Programs</h2>
@@ -113,8 +132,9 @@ const Programs = () => {
 
             <div className="mt-8 justify-between transition duration-200 ease-in-out transform hover:-translate-y-1 hover:scale-40">
               <div className="flex flex-col md:flex-row justify-between">
-                <div className="bg-gray p-4 shadow-lg transition duration-200 ease-in-out transform hover:-translate-y-1 hover:scale-110 mb-4 md:mb-0">
-                  <h4 className="text-4xl font-bold font-[Merriweather] text-white">Virtual Coaching</h4>
+                <div className="bg-gray p-4 shadow-lg transition duration-200 ease-in-out transform hover:-translate-y-1 hover:scale-110 mr-2 mb-4 md:mb-0 flex flex-col items-center justify-center">
+                  <h4 className="text-4xl font-bold font-[Merriweather] text-white mb-6">Virtual Coaching</h4>
+                  <img className='w-1/2 h-1/2 mb-4' src={ELCLogo1} />
                   <h4 className="text-xl -mt-2 font-bold font-[Merriweather] text-red ml-1">Recurring</h4>
                   <h4 className="text-2xl mt-2 font-bold font-[Merriweather] text-white">$150 Per Month</h4>
                   <p className="text-xl -mt2 font-bold font-[Merriweather] text-red ml-1"></p>
@@ -124,9 +144,11 @@ const Programs = () => {
                   </div>
                 </div>
 
-                <div className="bg-gray p-4 shadow-lg transition duration-200 ease-in-out transform hover:-translate-y-1 hover:scale-110">
-                  <h4 className="text-4xl font-bold font-[Merriweather] text-white">Personal Training</h4>
+                <div className="bg-gray p-4 shadow-lg transition duration-200 ease-in-out transform hover:-translate-y-1 hover:scale-110 flex flex-col items-center justify-center">
+                  <h4 className="text-4xl font-bold font-[Merriweather] text-white mb-6 ">Personal Training</h4>
+                  <img className='w-1/2 h-1/2 mb-4' src={ELCLogo2} />
                   <h4 className="text-xl -mt-2 font-bold font-[Merriweather] text-red">Recurring</h4>
+                  <img src="" alt="" />
                   <h4 className="text-2xl mt-2 font-bold font-[Merriweather] text-white">$200 Per Month</h4>
                   <div className="flex justify-between md:justify-start">
                     <button href="#Private" className="bg-lightred text-white font-bold py-2 px-4 rounded transition duration-200 ease-in-out transform hover:-translate-y-1 hover:scale-110 mt-2"> Purchase</button>

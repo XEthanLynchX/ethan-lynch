@@ -12,6 +12,9 @@ module.exports = {
   content: ["./src/components/**/*.jsx"], // We need to specify files where we look for classes, because Tailwind doesn't know about JSX
   theme: {
     extend: {
+    boxShadow: {
+      txt: '2px 2px #000',
+    },
     colors: {
       transparent: 'transparent',
       current: 'currentColor',
