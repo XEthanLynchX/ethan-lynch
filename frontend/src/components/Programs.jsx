@@ -9,6 +9,7 @@ import Program6 from '../imgs/Program6.png';
 import ELCLogo1 from '../imgs/ELCLogo1.jpeg';
 import ELCLogo2 from '../imgs/ELCLogo2.jpeg';
 import { useEffect } from 'react';
+import { API_URL } from '../config';
 
 const Programs = () => {
 
@@ -139,7 +140,10 @@ const Programs = () => {
                   <h4 className="text-2xl mt-2 font-bold font-[Merriweather] text-white">$150 Per Month</h4>
                   <p className="text-xl -mt2 font-bold font-[Merriweather] text-red ml-1"></p>
                   <div className="flex justify-between md:justify-start">
-                    <button href="#Private" className="bg-lightred text-white font-bold py-2 px-4 rounded transition duration-200 ease-in-out transform hover:-translate-y-1 hover:scale-110 mt-2"> Purchase</button>
+                    <form action={`${API_URL}api/stripe/create-checkout-session`} method="POST">
+                      <input type="hidden" name="price_id" value="price_1ObZl7JYXhvyfXz9piNUESG8" />
+                      <button className="bg-lightred text-white font-bold py-2 px-4 rounded transition duration-200 ease-in-out transform hover:-translate-y-1 hover:scale-110 mt-2"> Purchase</button>
+                    </form>
                     <button href="#Private" className="bg-lightred ml-4 md:ml-16 text-white font-bold py-2 px-4 rounded transition duration-200 ease-in-out transform hover:-translate-y-1 hover:scale-110 mt-2"> Inquire</button>
                   </div>
                 </div>
@@ -151,7 +155,10 @@ const Programs = () => {
                   <img src="" alt="" />
                   <h4 className="text-2xl mt-2 font-bold font-[Merriweather] text-white">$200 Per Month</h4>
                   <div className="flex justify-between md:justify-start">
-                    <button href="#Private" className="bg-lightred text-white font-bold py-2 px-4 rounded transition duration-200 ease-in-out transform hover:-translate-y-1 hover:scale-110 mt-2"> Purchase</button>
+                    <form action={`${API_URL}api/stripe/create-checkout-session`} method="POST">
+                      <input type="hidden" name="price_id" value="price_1OeSV9JYXhvyfXz9LTht4jUV" />
+                      <button className="bg-lightred text-white font-bold py-2 px-4 rounded transition duration-200 ease-in-out transform hover:-translate-y-1 hover:scale-110 mt-2"> Purchase</button>
+                    </form>
                     <button href="#Private" className="bg-lightred ml-4 md:ml-16 text-white font-bold py-2 px-4 rounded transition duration-200 ease-in-out transform hover:-translate-y-1 hover:scale-110 mt-2"> Inquire</button>
                   </div>
                 </div>
@@ -170,8 +177,10 @@ const Programs = () => {
                   <p className=" text-xl text-white leading-relaxed font-[merriweahter]  ">This program prioritizes hypertrophy, aiming for balanced muscle development. It involves continuous programming tailored to optimize training using a science-based approach.</p>
                   
                   </div>
-                
-                <button href="#Private" className="bg-lightred text-white font-bold py-2 px-4 rounded transition duration-200 ease-in-out transform hover:-translate-y-1 hover:scale-105 mt-2"> Purchase</button>
+                <form action={`${API_URL}api/stripe/create-checkout-session`} method="POST">
+                  <input type="hidden" name="price_id" value="price_1OZPzPJYXhvyfXz93WqOem3x" />
+                  <button  className="bg-lightred text-white font-bold py-2 px-4 rounded transition duration-200 ease-in-out transform hover:-translate-y-1 hover:scale-105 mt-2"> Purchase</button>
+                </form>
               </div>
 
               <div className="w-1/2 p-2 bg-gray-200 relative flex flex-col">
@@ -181,8 +190,10 @@ const Programs = () => {
                   <p className="text-xl text-white leading-relaxed font-[merriweahter] ">
                 This program places particular emphasis on lower body and back development, targeting the glutes, lats, and delts to achieve a well-rounded V-taper, especially beneficial for women.</p>
                 </div>
-                
-                <button href="#Private" className="bg-lightred text-white font-bold py-2 px-4 rounded transition duration-200 ease-in-out transform hover:-translate-y-1 hover:scale-105 mt-2"> Purchase</button>
+                <form action={`${API_URL}api/stripe/create-checkout-session`} method="POST">
+                  <input type="hidden" name="price_id" value="price_1OgG2LJYXhvyfXz9Ito4gZFC" />
+                  <button className="bg-lightred text-white font-bold py-2 px-4 rounded transition duration-200 ease-in-out transform hover:-translate-y-1 hover:scale-105 mt-2"> Purchase</button>
+                </form>
               </div>
             </div>
 
@@ -204,7 +215,10 @@ const Programs = () => {
                 <p className="text-xl text-white leading-relaxed font-[merriweahter]">
                 This nutrition plan is meticulously crafted to align with your fitness goals. It focuses on optimizing your dietary intake through personalized and science-based strategies, ensuring you receive the essential nutrients needed to support your overall well-being and achieve your desired physique.</p>
               </div>
-              <button href="#Private" className="bg-lightred text-white font-bold py-2 px-4 rounded transition duration-200 ease-in-out transform hover:-translate-y-1 hover:scale-105 w-1/2 mt-2"> Purchase</button>
+              <form action={`${API_URL}api/stripe/create-checkout-session`} method="POST">
+                <input type="hidden" name="price_id" value="price_1OZPxuJYXhvyfXz9mbg8Wjxg" />
+                <button className="bg-lightred text-white font-bold py-2 px-4 rounded transition duration-200 ease-in-out transform hover:-translate-y-1 hover:scale-105 w-1/2 mt-2"> Purchase</button>
+              </form>
             </div>
 
             <h3 className="text-6xl font-bold mb-4 font-[Merriweather] text-center mt-8 mb-8">Nutrition Plan</h3>
