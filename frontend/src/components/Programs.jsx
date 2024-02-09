@@ -137,7 +137,7 @@ const Programs = () => {
               </ul>
               <form action="./api/stripe/create-checkout-session" method="POST">
                 <input type="hidden" name="price_id" value="price_1OeSV9JYXhvyfXz9LTht4jUV" />
-                <input type="hidden" name="mode" value="payment" />
+                <input type="hidden" name="mode" value="subscription" />
                 <button className="bg-lightred text-white font-bold py-2 px-4 rounded transition duration-200 ease-in-out transform hover:-translate-y-1 hover:scale-105 mt-2"> Purchase</button>
               </form>
             </div>
@@ -199,7 +199,7 @@ const Programs = () => {
               </ul>
               <form action="./api/stripe/create-checkout-session" method="POST">
                 <input type="hidden" name="price_id" value="price_1OhlDkJYXhvyfXz9Cb8y2eBq" />
-                <input type="hidden" name="mode" value="payment" />
+                <input type="hidden" name="mode" value="subscription" />
                 <button className="bg-blue text-white font-bold py-2 px-4 rounded transition duration-200 ease-in-out transform hover:-translate-y-1 hover:scale-105 mt-2"> Purchase</button>
               </form>
             </div>
