@@ -20,6 +20,7 @@
     "query-string": "^8.2.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-responsive-carousel": "^3.2.23",
     "react-router-dom": "^6.21.1",
     "react-stripe-checkout": "^2.6.3",
     "tailwindcss": "^3.4.0"

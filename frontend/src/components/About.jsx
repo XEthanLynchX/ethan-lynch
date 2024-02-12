@@ -1,11 +1,11 @@
 import React from 'react';
-import About1 from '../imgs/About1.jpg';
-import About2 from '../imgs/About2.jpg';
-import About3 from '../imgs/About3.jpg';
-import About4 from '../imgs/About4.jpg';
-import About5 from '../imgs/About5.Webp';
-import About6 from '../imgs/About6.jpg';
-import About7 from '../imgs/About7.jpg';
+import About1 from '../imgs/about/About1.jpg';
+import About2 from '../imgs/about/About2.jpg';
+import About3 from '../imgs/about/About3.jpg';
+import About4 from '../imgs/about/About4.jpg';
+import About5 from '../imgs/about/About5.Webp';
+import About6 from '../imgs/about/About6.jpg';
+import About7 from '../imgs/about/About7.jpg';
 
 const images = [
   About1, 

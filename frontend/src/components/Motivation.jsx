@@ -1,7 +1,7 @@
 import React from 'react';
-import image1 from '../imgs/image1.webp';
-import image2 from '../imgs/image2.jpg';
-import image3 from '../imgs/image3.jpg';
+import image1 from '../imgs/motivation/image1.webp';
+import image2 from '../imgs/motivation/image2.jpg';
+import image3 from '../imgs/motivation/image3.jpg';
 import girl_running from '../vids/girl_running.mp4'; 
 import '../styling/style.css'; 
 

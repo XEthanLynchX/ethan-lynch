@@ -1,13 +1,13 @@
 import React from 'react';
 import '../styling/style.css'
-import Program1 from '../imgs/Program1.webp';
-import Program2 from '../imgs/Program2.jpg';
-import Program3 from '../imgs/Program3.jpg';
-import Program4 from '../imgs/Program4.png';
-import Program5 from '../imgs/Program5.png';
-import Program6 from '../imgs/Program6.png';
-import ELCLogo1 from '../imgs/ELCLogo1.jpeg';
-import ELCLogo2 from '../imgs/ELCLogo2.jpeg';
+import Program1 from '../imgs/programs/Program1.webp';
+import Program2 from '../imgs/programs/Program2.jpg';
+import Program3 from '../imgs/programs/Program3.jpg';
+import Program4 from '../imgs/programs/Program4.png';
+import Program5 from '../imgs/programs/Program5.png';
+import Program6 from '../imgs/programs/Program6.png';
+import ELCLogo1 from '../imgs/programs/ELCLogo1.jpeg';
+import ELCLogo2 from '../imgs/programs/ELCLogo2.jpeg';
 import { useEffect } from 'react';
 import { useLocation } from 'react-router-dom';
 import QueryString from 'query-string';

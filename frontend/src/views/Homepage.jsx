@@ -3,6 +3,7 @@ import Navbar from '../components/Navbar';
 import Motivation from '../components/Motivation';
 import About from '../components/About';
 import Programs from '../components/Programs';
+import Testimonial from '../components/Testimonial';
 import { motion, useScroll, useSpring } from 'framer-motion';
 import '../styling/style.css';
 
@@ -31,6 +32,10 @@ const Homepage = () => {
 
       <div id="programs">
         <Programs />
+      </div>
+
+      <div id="testimonial">
+        <Testimonial />
       </div>
 
       
