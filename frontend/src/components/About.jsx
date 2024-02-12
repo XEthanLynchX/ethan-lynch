@@ -56,7 +56,7 @@ const About = () => {
           <img src={About5} alt="Image" className="object-cover w-full h-full" />
         </div>
 
-        <div className="w-full md:w-1/2 p-8">
+        <div className="w-full md:w-1/2 p-8 bg-bla">
 
           <div ><h2 className="text-6xl text-black leading-relaxed m-4 font-[Merriweather] font-bold mb-10 ">The Benefits of Pro Coaching </h2></div>
 

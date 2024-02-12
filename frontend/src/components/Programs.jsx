@@ -35,9 +35,9 @@ const Programs = () => {
   }, []);
   
   return (
-    <div className="p-8 bg-berige text-" id="programs">
+    <div className="p-8 bg-berige " id="programs">
       <h2 className="text-8xl font-bold text-black text-left mb-20 bg-berige"> Coaching Services</h2>
-      <div className="flex flex-wrap justify-around bg-berige">
+      <div className="flex flex-wrap justify-around bg-black rounded-md">
         <div className="w-full md:w-1/3 p-4 mt-20 transition duration-200 ease-in-out transform hover:-translate-y-1 hover:scale-110">
           <div className="border-0 border-black rounded p-4 shadow-2xl bg-berige ">
             <h3 className="text-3xl font-bold mb-4 font-[Merriweather]">Private 1:1 Coaching</h3>
