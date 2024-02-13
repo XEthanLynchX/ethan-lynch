@@ -35,11 +35,11 @@ const Programs = () => {
   }, []);
   
   return (
-    <div className="p-8 bg-berige " id="programs">
-      <h2 className="text-8xl font-bold text-black text-left mb-20 bg-berige"> Coaching Services</h2>
-      <div className="flex flex-wrap justify-around bg-black rounded-md">
-        <div className="w-full md:w-1/3 p-4 mt-20 transition duration-200 ease-in-out transform hover:-translate-y-1 hover:scale-110">
-          <div className="border-0 border-black rounded p-4 shadow-2xl bg-berige ">
+    <div className="p-8 bg-navy " id="programs " >
+      <h2 className="text-8xl font-bold text-white text-left mb-20 bg-navy"> Coaching Services</h2>
+      <div className="flex flex-wrap justify-around rounded-md text-white ">
+        <div className="w-full md:w-1/3 p-4 mt-20 transition duration-200 ease-in-out transform hover:-translate-y-1 hover:scale-110 ">
+          <div className="border-0 border-black rounded p-4 shadow-2xl bg-navy ">
             <h3 className="text-3xl font-bold mb-4 font-[Merriweather]">Private 1:1 Coaching</h3>
             <h6 className="italic mb-4 -mt-4 font-semibold font-[Georgia]">In-Person or Virtual</h6>
             <img src={Program2} alt="Private 1:1 Coaching" className="object-cover w-full h-96 border-8 border-black rounded-lg" />
@@ -55,7 +55,7 @@ const Programs = () => {
           </div>
         </div>
         <div className="w-full md:w-1/3 p-4 mt-20 transition duration-200 ease-in-out transform hover:-translate-y-1 hover:scale-110">
-          <div className="border-0 border-black rounded p-4 shadow-2xl bg-berige ">
+          <div className="border-0 border-black rounded p-4 shadow-2xl bg-navy ">
             <h3 className="text-3xl font-bold mb-4 font-[Merriweather]">Training Programs</h3>
             <h6 className="italic mb-4 -mt-4 font-semibold font-[Georgia]">Available WorldWide</h6>
             <img src={Program1} alt="Custom Workout Routine" className="object-cover w-full h-96 border-8 border-black rounded-lg" />
@@ -71,7 +71,7 @@ const Programs = () => {
           </div>
         </div>
         <div className="w-full md:w-1/3 p-4 mt-20 transition duration-200 ease-in-out transform hover:-translate-y-1 hover:scale-110">
-          <div className="border-0 border-black rounded p-4 shadow-2xl bg-berige ">
+          <div className="border-0 border-black rounded p-4 shadow-2xl bg-navy ">
             <h3 className="text-3xl font-bold mb-4 font-[Merriweather]">Nutrition Plan / Guidance</h3>
             <h6 className="italic mb-4 -mt-4 font-semibold font-[Georgia]">Available WorldWide</h6>
             <img src={Program3} alt="Nutrition Advice / Plan" className="object-cover w-full h-96 border-8 border-black rounded-lg" />
@@ -89,11 +89,11 @@ const Programs = () => {
       </div>
   
       <div class="grid-flow-col lg:grid lg:grid-cols-5 lg:gap-4 lg:px-10 lg:pt-8 md:grid md:grid-cols-2 md:gap-4 md:px-10 md:pt-5 " id='coaching'>
-        <div class="col-auto lg:col-span-3 lg:pr-5 lg:pt-10 pb-10">
+        <div class="col-auto lg:col-span-3 lg:pr-5 lg:pt-10 pb-10 text-white">
           <h1 class="text-5xl text-center font-extrabold tracking-tight text-gray-900 sm:text-4xl md:text-4xl md:text-left lg:text-4xl xl:text-5xl lg:text-left pb-10">
             <span class="block xl:inline" >1:1 Personal Training </span>
           </h1>
-          <div class="space-y-5 text-center md:text-left lg:text-left text-lg">
+          <div class="space-y-5 text-center md:text-left lg:text-left text-lg font-[georgia]">
           <p class="text-gray-500 xl:text-3xl md:text-xl text-xltext-semibold">
             ELC provides an elite level of science-based coaching to help you achieve your fitness goals.
           </p>
@@ -113,24 +113,24 @@ const Programs = () => {
           </div>
         </div>
         <div class="col-auto lg:col-span-2 mx-auto w-full lg:w-full lg:pl-10">
-          <div class="col-auto rounded-sm bg-gray-100 shadow-md px-10 border hover:border-gray-300">
+          <div class="col-auto rounded-sm bg-gray-100 shadow-md px-10 border-4 border-black hover:border-gray-300">
             <div class="flex justify-center self-center items-center -mx-10">
               <img class="object-cover rounded-t-sm w-full h-full object-center" src={ELCLogo1} alt="Photo of coaching service 1"></img>
             </div>
             <div class="col-auto mt-8 pb-3 -mx-5">
-              <div class="grid-flow-col grid grid-cols-4">
-                <div class="col-span-3">
-                  <h1 class="text-black lg:text-3xl md:text-3xl text-2xl font-semibold text-left pb-1">
+              <div class="grid-flow-col grid grid-cols-4 ">
+                <div class="col-span-3 ">
+                  <h1 class="text-white lg:text-3xl md:text-3xl text-2xl font-semibold text-left pb-1">
                     1:1 In Person Coaching
                   </h1>
                 </div>
                 <div class="col-auto text-center mt-1">
-                  <p class="text-right text-gray-500 font-bold text-xl">
+                  <p class="text-right text-gray-500 font-bold text-xl text-white">
                     Price: $199.99
                   </p>
                 </div>
               </div>
-              <ul class="custom-bullet list-inside leading-relaxed m-4 font-[merriweahter] text-2xl">
+              <ul class="custom-bullet list-inside leading-relaxed m-4 font-[georgia] text-2xl text-white">
                 <li>
                   <span class='font-bold'>High-Level Coaching by Ethan Lynch: </span> Personalized coaching that encompasses everything you need. Tailored to your unique needs, this one-on-one service employs a science-based approach, coupled with my expertise and meticulous programming, ensuring optimal results efficiently.
                 </li>
@@ -145,7 +145,7 @@ const Programs = () => {
         </div>
       </div>
 
-      <div class="grid-flow-col lg:grid lg:grid-cols-5 lg:gap-4 lg:px-10 lg:pt-8 md:grid md:grid-cols-2 md:gap-4 md:px-10 md:pt-5">
+      <div class="grid-flow-col lg:grid lg:grid-cols-5 lg:gap-4 lg:px-10 lg:pt-8 md:grid md:grid-cols-2 md:gap-4 md:px-10 md:pt-5 text-white">
         <div class="col-auto lg:col-span-3 lg:pr-5 lg:pt-10 pb-10">
           <h1 class="text-5xl text-center font-extrabold tracking-tight text-gray-900 sm:text-4xl md:text-4xl md:text-left lg:text-4xl xl:text-5xl lg:text-left pb-10">
             <span class="block xl:inline">Virtual Personal Training</span>
@@ -175,14 +175,14 @@ const Programs = () => {
 
 
         <div class="col-auto lg:col-span-2 mx-auto w-full lg:w-full lg:pl-10">
-          <div class="col-auto rounded-sm bg-gray-100 shadow-md px-10 border hover:border-gray-300">
+          <div class="col-auto rounded-sm bg-gray-100 shadow-md px-10 border-4 border-black  hover:border-gray-300">
             <div class="flex justify-center self-center items-center -mx-10">
               <img class="object-cover rounded-t-sm w-full h-full object-center" src={ELCLogo2} alt="Photo of coaching service 1"></img>
             </div>
             <div class="col-auto mt-8 pb-3 -mx-5">
               <div class="grid-flow-col grid grid-cols-4">
                 <div class="col-span-3">
-                  <h1 class="text-black lg:text-3xl md:text-3xl text-2xl font-semibold text-left pb-1">
+                  <h1 class="text-white lg:text-3xl md:text-3xl text-2xl font-semibold text-left pb-1">
                     1:1 In Person Coaching
                   </h1>
                 </div>
@@ -192,7 +192,7 @@ const Programs = () => {
                   </p>
                 </div>
               </div>
-              <ul class="custom-bullet list-inside leading-relaxed m-4 font-[merriweahter] text-2xl">
+              <ul class="custom-bullet list-inside leading-relaxed m-4 font-font-[georgia] text-2xl">
                 <li>
                   <span class='font-bold'>High-Level Coaching by Ethan Lynch: </span> Personalized coaching that encompasses everything you need. Tailored to your unique needs, this one-on-one service employs a science-based approach, coupled with my expertise and meticulous programming, ensuring optimal results efficiently.
                 </li>
@@ -207,16 +207,16 @@ const Programs = () => {
         </div>
       </div>
   
-      <div class="grid grid-cols-1 lg:grid-cols-5 lg:gap-4 lg:px-10 lg:pt-8 md:grid md:grid-cols-2 md:gap-4 md:px-10 md:pt-5">
+      <div class="grid grid-cols-1 lg:grid-cols-5 lg:gap-4 lg:px-10 lg:pt-8 md:grid md:grid-cols-2 md:gap-4 md:px-10 md:pt-5 text-white">
         <div class="col-auto lg:col-span-2 mx-auto w-full lg:w-full lg:pl-10 order-2 lg:order-1">
-          <div class="col-auto rounded-sm bg-gray-100 shadow-md px-10 border hover:border-gray-300">
+          <div class="col-auto rounded-sm bg-gray-100 shadow-md px-10 border-4 border-black  hover:border-gray-300">
               <div class="flex justify-center self-center items-center -mx-10">
                   <img class="object-cover rounded-t-sm w-full h-full object-center" src={Program5} alt="Workout"></img>
               </div>
               <div class="col-auto mt-8 pb-3 -mx-5">
                   <div class="grid-flow-col grid grid-cols-4">
                       <div class="col-span-3">
-                          <h1 class="text-black lg:text-3xl md:text-3xl text-2xl font-semibold text-left pb-1">
+                          <h1 class="text-white lg:text-3xl md:text-3xl text-2xl font-semibold text-left pb-1">
                               Men's Program
                           </h1>
                       </div>
@@ -226,7 +226,7 @@ const Programs = () => {
                           </p>
                       </div>
                   </div>
-                  <ul class="custom-bullet list-inside leading-relaxed m-4 font-[merriweahter] text-2xl">
+                  <ul class="custom-bullet list-inside leading-relaxed m-4 font-[georgia] text-2xl">
                       <li>
                           <span class='font-bold'>This program prioritizes hypertrophy: </span> aiming for balanced muscle development. It involves continuous programming tailored to optimize training using a science-based approach.
                       </li>
@@ -264,16 +264,16 @@ const Programs = () => {
     </div>
   </div>
 
-  <div class="grid grid-cols-1 lg:grid-cols-5 lg:gap-4 lg:px-10 lg:pt-8 md:grid md:grid-cols-2 md:gap-4 md:px-10 md:pt-5">
+  <div class="grid grid-cols-1 lg:grid-cols-5 lg:gap-4 lg:px-10 lg:pt-8 md:grid md:grid-cols-2 md:gap-4 md:px-10 md:pt-5 text-white">
         <div class="col-auto lg:col-span-2 mx-auto w-full lg:w-full lg:pl-10 order-2 lg:order-1">
-          <div class="col-auto rounded-sm bg-gray-100 shadow-md px-10 border hover:border-gray-300">
+          <div class="col-auto rounded-sm bg-gray-100 shadow-md px-10 border-4 border-black  hover:border-gray-300">
               <div class="flex justify-center self-center items-center -mx-10">
                   <img class="object-cover rounded-t-sm w-full h-full object-center" src={Program4} alt="Workout"></img>
               </div>
               <div class="col-auto mt-8 pb-3 -mx-5">
                   <div class="grid-flow-col grid grid-cols-4">
                       <div class="col-span-3">
-                          <h1 class="text-black lg:text-3xl md:text-3xl text-2xl font-semibold text-left pb-1">
+                          <h1 class="text-white lg:text-3xl md:text-3xl text-2xl font-semibold text-left pb-1">
                               Women's Program
                           </h1>
                       </div>
@@ -283,7 +283,7 @@ const Programs = () => {
                           </p>
                       </div>
                   </div>
-                  <ul class="custom-bullet list-inside leading-relaxed m-4 font-[merriweahter] text-2xl">
+                  <ul class="custom-bullet list-inside leading-relaxed m-4 font-[georgia] text-2xl">
                       <li>
                           <span class='font-bold'>Prioritization on Core, Lower-Body, and Back : </span> targeting the abodminals, glutes, quads, hamstrings, lats, and delts to achieve a well-rounded V-taper, especially beneficial for women.
                       </li>
@@ -297,7 +297,7 @@ const Programs = () => {
           </div>
       </div>
 
-      <div class="col-auto lg:col-span-3 lg:pr-5 lg:pt-10 pb-10 order-1 lg:order-2" id='routine'>
+      <div class="col-auto lg:col-span-3 lg:pr-5 lg:pt-10 pb-10 order-1 lg:order-2 " >
         <h1 class="text-5xl text-center font-extrabold tracking-tight text-gray-900 sm:text-4xl md:text-4xl md:text-right lg:text-4xl xl:text-5xl lg:text-right pb-10">
             <span class="block xl:inline">Women's Hypertrophy Program</span>
         </h1>
@@ -323,7 +323,7 @@ const Programs = () => {
     </div>
   </div>
 
-    <div class="grid-flow-col lg:grid lg:grid-cols-5 lg:gap-4 lg:px-10 lg:pt-8 md:grid md:grid-cols-2 md:gap-4 md:px-10 md:pt-5 " id='diet'>
+    <div class="grid-flow-col lg:grid lg:grid-cols-5 lg:gap-4 lg:px-10 lg:pt-8 md:grid md:grid-cols-2 md:gap-4 md:px-10 md:pt-5 text-white" id='diet'>
         <div class="col-auto lg:col-span-3 lg:pr-5 lg:pt-10 pb-10">
           <h1 class="text-5xl text-center font-extrabold tracking-tight text-gray-900 sm:text-4xl md:text-4xl md:text-left lg:text-4xl xl:text-5xl lg:text-left pb-10">
             <span class="block xl:inline" >Nutrional Plan / Guidance  </span>
@@ -351,14 +351,14 @@ const Programs = () => {
           </div>
         </div>
         <div class="col-auto lg:col-span-2 mx-auto w-full lg:w-full lg:pl-10">
-          <div class="col-auto rounded-sm bg-gray-100 shadow-md px-10 border hover:border-gray-300">
+          <div class="col-auto rounded-sm bg-gray-100 shadow-md px-10 border-4 border-black hover:border-gray-300">
             <div class="flex justify-center self-center items-center -mx-10">
               <img class="object-cover rounded-t-sm w-full h-full object-center" src={Program6} alt="Photo of coaching service 1"></img>
             </div>
             <div class="col-auto mt-8 pb-3 -mx-5">
               <div class="grid-flow-col grid grid-cols-4">
                 <div class="col-span-3">
-                  <h1 class="text-black lg:text-3xl md:text-3xl text-2xl font-semibold text-left pb-1">
+                  <h1 class="text-white lg:text-3xl md:text-3xl text-2xl font-semibold text-left pb-1">
                     Nutrional Plan / Guidance
                   </h1>
                 </div>
@@ -368,7 +368,7 @@ const Programs = () => {
                   </p>
                 </div>
               </div>
-              <ul class="custom-bullet list-inside leading-relaxed m-4 font-[merriweahter] text-2xl">
+              <ul class="custom-bullet list-inside leading-relaxed m-4 font-[georgia] text-2xl">
                 <li>
                   <span class='font-bold'>Personalized Nutrition Plan: </span> Tailored to your unique needs, our nutrition program provides a customized meal plan designed to help you achieve your fitness goals.
                 </li>

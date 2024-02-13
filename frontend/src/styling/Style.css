@@ -21,20 +21,17 @@
  
 ::-webkit-scrollbar-thumb {
   background: #1a1a1a; 
+  border-radius: 20px;
+  border: 3px solid berige;
 }
 
-::-webkit-scrollbar-thumb:hover {
-  background: #cc0d0d; 
+body[data-scrollbar='navy']::-webkit-scrollbar-track {
+  background: navy;
 }
 
-ul.custom-bullet {
-  list-style-type: none;
-}
 
-ul.custom-bullet li::before {
-  content: "₪"; 
-  display: inline-block;
-  margin-right: 10px;
-}
+
+
+
 
 

@@ -34,7 +34,7 @@ const Homepage = () => {
         <Programs />
       </div>
 
-      <div id="testimonial">
+      <div id="testimonials">
         <Testimonial />
       </div>
 

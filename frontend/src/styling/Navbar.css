@@ -7,8 +7,6 @@
   justify-content: center; /* Center the content */
   align-items: center; /* Center vertically */
   padding: 0.5em 1em;
-  background-color: #c79a9a;
-  color: #fff;
   position: fixed;
   height: 8%;
   width: 100%;
@@ -30,6 +28,5 @@
 }
 
 .navbar a {
-  color: #1a1a1a;
   text-decoration: none;
 }

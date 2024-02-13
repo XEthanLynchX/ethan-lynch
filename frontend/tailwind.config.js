@@ -38,11 +38,12 @@ module.exports = {
       "berige": "#d9b382",
       "dark": "#1a1a1a",
       "gray": "#3a3b3c",
+      "navy": "#05386b",
       
 
     },
     fontFamily: {
-      'sans': ['Poppins', 'Helvetica', 'Arial', 'sans-serif'],
+      'sans': ['Poppins', 'Helvetica', 'Arial', 'sans-serif', 'roboto'],
       'serif': ['Merriweather', 'Georgia', 'Times New Roman', 'serif'],
       'mono': ['Inconsolata', 'Menlo', 'Monaco', 'monospace'],
     },
