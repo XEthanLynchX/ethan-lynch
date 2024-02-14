@@ -9,10 +9,12 @@ import Will from '../imgs/before&after/Will.png';
 
 const Testimonials = () => {
   const testimonials = [
-    { name: "Juan", image: Juan, alt: "Juan's Transformation", quote: "As a member of the Air Force, I've experienced tremendous benefits from Ethan's personally crafted workout routines and dietary guidance. Not only have these plans enhanced my performance at work, but they've also instilled a newfound sense of confidence within me. " },
-    { name: "Alex", image: Alex, alt: "Alex's Transformation", quote: "Powerbuilding has always been my primary goal, and Ethan's nutrition plans and workout routines have been instrumental in helping me achieve a physique and strength levels that I once thought were beyond reach. His approach and tailored guidance have pushed me to surpass my own expectations" },
-    { name: "Wub", image: Wub, alt: "Wub's Transformation", quote: "My initial aim was simple, to pack on muscle and improve my overall health. With Ethan's guidance, I've not only added significant muscle mass but also made remarkable strides towards a healthier lifestyle. His expertise and support have been invaluable on this journey" },
-    { name: "Will", image: Will, alt: "Will's Transformation", quote: "My main goal was to achieve a more aesthetic physique, lose weight and gain muscle. Ethan's nutrition plan and workout routines has been super helpful in helping me achieve my goal. With his help I've lost 50 pounds and I've put on muscle onto my frame.  " }
+    { name: "Juan", image: Juan, alt: "Juan's Transformation", quote: 
+    "Being in the Air Force, I can't stress enough how Ethan's custom workout plans and dietary advice have truly changed the game for me. It's not just about feeling physically stronger or performing better on duty although that's definitely a big part of it. It's also about the mental boost knowing I'm taking care of myself in the best way possible. Ethan's approach isn't just a routine; it's a lifestyle that's given me a whole new level of confidence." },
+    { name: "Alex", image: Alex, alt: "Alex's Transformation", quote: 
+    "From day one, my focus has been on powerbuilding, and Ethan's nutrition strategies and workout plans have been perfect from the start. His personalized approach, I've not only achieved the physique I've always wanted but also reached strength levels I once thought weren't possible for me. Ethan's dedication and guidance have really pushed me." },
+    { name: "Wub", image: Wub, alt: "Wub's Transformation", quote: "At first, I just wanted to get stronger and feel better overall. With Ethan's help, I've not only gained muscle, but I've also made big improvements to my health and fitness. His support and knowledge have been crucial in making real progress." },
+    { name: "Will", image: Will, alt: "Will's Transformation", quote: "My main goal was to achieve a more aesthetic physique, lose weight and gain muscle. Ethan has been super helpful in helping me achieve my goal. With his help I've lost 50 pounds and I've put on a bunch of muscle onto my frame." }
   ];
 
   const [modalImage, setModalImage] = useState(null);
@@ -46,32 +48,31 @@ const Testimonials = () => {
 
   return (
     <div className="p-8 bg-navy text-white border-black border-t-[12px] ">
-     <div className="flex flex-col md:flex-row justify-between items-center">
-      <div className="mb-8 md:mb-72 ml-72 mt-36 ">
-        <h1 className="text-4xl md:text-7xl font-bold text-left mb-2">Client </h1>
-        <h1 className="text-4xl md:text-7xl font-bold text-left mb-8 text-red">Transformations</h1>
-        <p className='text-2xl font-[roboto] font-semibold w-5/6'>ELC takes pride in providing the highest quality service to clients. Below you will find several client transformations of ELC.</p>
+      <div className="flex flex-col md:flex-row justify-between items-center">
+        <div className="mb-4 md:mb-72 ml-4 md:ml-72 mt-8 md:mt-36">
+          <h1 className="text-2xl md:text-7xl font-bold text-left mb-2">Client </h1>
+          <h1 className="text-2xl md:text-7xl font-bold text-left mb-8 text-red">Transformations</h1>
+          <p className='text-xl md:text-2xl font-[roboto] font-semibold w-full md:w-5/6'>ELC takes pride in providing the highest quality service to clients. Below you will find several client transformations of ELC.</p>
+        </div>
+        <div className="max-w-xl mx-auto mt-4 md:mt-0 md:mr-36">
+          <img src={Ethan} alt="Ethan's Transformation" className="w-full md:h-full rounded-lg shadow-lg" />
+        </div>
       </div>
-      <div className="max-w-xl mx-auto mr-36">
-        <img src={Ethan} alt="Ethan's Transformation" className="w-full md:h-full rounded-lg shadow-lg" />
+      <div className="grid grid-cols-2 md:grid-cols-2 xl:grid-cols-2 gap-4 md:gap-8 xl:gap-12 px-4 md:px-72 xl:px-96">
+  {testimonials.map((testimonial, index) => (
+    <div key={index} className="flex flex-col items-center m-4">
+      <div className="w-full md:w-72 xl:w-96">
+        <img
+          src={testimonial.image}
+          alt={testimonial.alt}
+          className="w-full h-auto object-cover rounded-md shadow-lg cursor-pointer"
+          onClick={() => openModal(testimonial.image)}
+        />
+        <p className="mt-2 text-center xl:text-xl">"{testimonial.quote}"</p>
       </div>
     </div>
-      <div className="inline-grid grid-cols-2 gap-4 mt-32">
-        {testimonials.map((testimonial, index) => (
-          <div key={index} className="flex flex-col items-center m-4 w-full">
-            <img
-              src={testimonial.image}
-              alt={testimonial.alt}
-              className="w-20 h-20 md:w-1/2 md:h-auto object-cover rounded-md shadow-lg mx-2 cursor-pointer"
-              onClick={() => openModal(testimonial.image)}
-            />
-            <div className='w-1/2'>
-              <p className="mt-2 text-center text-xl ">"{testimonial.quote}"</p>
-            </div>
-            
-          </div>
-        ))}
-      </div>
+  ))}
+</div>
       {modalImage && (
         <div className="fixed top-0 left-0 w-full h-full flex justify-center items-center bg-black bg-opacity-90 z-50">
           <div className="relative" id="modal-container">
