@@ -35,11 +35,11 @@ const Programs = () => {
   }, []);
   
   return (
-    <div className="p-8 bg-navy " id="programs " >
-      <h2 className="text-8xl font-bold text-white text-left mb-20 bg-navy"> Coaching Services</h2>
+    <div className="p-8 bg-navy border-t-[12px]" id="programs " >
+      <h2 className="text-8xl font-bold text-white text-left mb-20 bg-navy "> Coaching Services</h2>
       <div className="flex flex-wrap justify-around rounded-md text-white ">
         <div className="w-full md:w-1/3 p-4 mt-20 transition duration-200 ease-in-out transform hover:-translate-y-1 hover:scale-110 ">
-          <div className="border-0 border-black rounded p-4 shadow-2xl bg-navy ">
+          <div className="border-2 border-black rounded p-4 shadow-2xl bg-navy ">
             <h3 className="text-3xl font-bold mb-4 font-[Merriweather]">Private 1:1 Coaching</h3>
             <h6 className="italic mb-4 -mt-4 font-semibold font-[Georgia]">In-Person or Virtual</h6>
             <img src={Program2} alt="Private 1:1 Coaching" className="object-cover w-full h-96 border-8 border-black rounded-lg" />
@@ -55,7 +55,7 @@ const Programs = () => {
           </div>
         </div>
         <div className="w-full md:w-1/3 p-4 mt-20 transition duration-200 ease-in-out transform hover:-translate-y-1 hover:scale-110">
-          <div className="border-0 border-black rounded p-4 shadow-2xl bg-navy ">
+          <div className="border-2 border-black rounded p-4 shadow-2xl bg-navy ">
             <h3 className="text-3xl font-bold mb-4 font-[Merriweather]">Training Programs</h3>
             <h6 className="italic mb-4 -mt-4 font-semibold font-[Georgia]">Available WorldWide</h6>
             <img src={Program1} alt="Custom Workout Routine" className="object-cover w-full h-96 border-8 border-black rounded-lg" />
@@ -71,7 +71,7 @@ const Programs = () => {
           </div>
         </div>
         <div className="w-full md:w-1/3 p-4 mt-20 transition duration-200 ease-in-out transform hover:-translate-y-1 hover:scale-110">
-          <div className="border-0 border-black rounded p-4 shadow-2xl bg-navy ">
+          <div className="border-2 border-black rounded p-4 shadow-2xl bg-navy ">
             <h3 className="text-3xl font-bold mb-4 font-[Merriweather]">Nutrition Plan / Guidance</h3>
             <h6 className="italic mb-4 -mt-4 font-semibold font-[Georgia]">Available WorldWide</h6>
             <img src={Program3} alt="Nutrition Advice / Plan" className="object-cover w-full h-96 border-8 border-black rounded-lg" />
@@ -323,7 +323,7 @@ const Programs = () => {
     </div>
   </div>
 
-    <div class="grid-flow-col lg:grid lg:grid-cols-5 lg:gap-4 lg:px-10 lg:pt-8 md:grid md:grid-cols-2 md:gap-4 md:px-10 md:pt-5 text-white" id='diet'>
+    <div class="grid-flow-col lg:grid lg:grid-cols-5 lg:gap-4 lg:px-10 lg:pt-8 md:grid md:grid-cols-2 md:gap-4 md:px-10 md:pt-5 text-white mb-32" id='diet'>
         <div class="col-auto lg:col-span-3 lg:pr-5 lg:pt-10 pb-10">
           <h1 class="text-5xl text-center font-extrabold tracking-tight text-gray-900 sm:text-4xl md:text-4xl md:text-left lg:text-4xl xl:text-5xl lg:text-left pb-10">
             <span class="block xl:inline" >Nutrional Plan / Guidance  </span>
