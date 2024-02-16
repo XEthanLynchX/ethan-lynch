@@ -47,7 +47,7 @@ const Testimonials = () => {
   }, []);
 
   return (
-    <div className="p-8 bg-navy text-white border-black border-t-[12px] ">
+    <div className="p-8 bg-navy text-white border-black border-t-[12px] border-b-[12px] ">
       <div className="flex flex-col md:flex-row justify-between items-center">
         <div className="mb-4 md:mb-72 ml-4 md:ml-72 mt-8 md:mt-36">
           <h1 className="text-2xl md:text-7xl font-bold text-left mb-2">Client </h1>

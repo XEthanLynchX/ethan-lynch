@@ -4,6 +4,7 @@ import Motivation from '../components/Motivation';
 import About from '../components/About';
 import Programs from '../components/Programs';
 import Testimonial from '../components/Testimonial';
+import ContactForm from '../components/ContactForm';
 import { motion, useScroll, useSpring } from 'framer-motion';
 import '../styling/style.css';
 
@@ -36,6 +37,10 @@ const Homepage = () => {
 
       <div id="testimonials">
         <Testimonial />
+      </div>
+
+      <div id="contact">
+        <ContactForm />
       </div>
 
       
