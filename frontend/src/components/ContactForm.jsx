@@ -35,13 +35,13 @@ const ContactForm = () => {
                     <label className="block uppercase tracking-wide text-red text-xs font-bold mb-2" htmlFor="first-name">
                       First Name
                     </label>
-                    <input className="form-control appearance-none block w-full text-gray-600 bg-white border border-gray-300 rounded-sm py-3 px-4 mb-3 leading-tight focus:outline-none focus:border-indigo-500 focus:bg-white hover:border-indigo-500" id="grid-first-name" name="first_name" type="text" placeholder="John" />
+                    <input className="form-control appearance-none block w-full text-gray-600 bg-white border border-gray-300 rounded-sm py-3 px-4 mb-3 leading-tight focus:outline-none  focus:bg-white " id="grid-first-name" name="first_name" type="text" placeholder="John" />
                   </div>
                   <div className="w-full md:w-1/2 px-3">
                     <label className="block uppercase tracking-wide -500 text-xs font-bold mb-2 text-red" htmlFor="last-name">
                       Last Name
                     </label>
-                    <input className="form-control appearance-none block w-full text-gray-600 bg-white border border-gray-300 rounded-sm py-3 px-4 mb-3 leading-tight focus:outline-none focus:border-indigo-500 focus:bg-white hover:border-indigo-500" id="grid-last-name" name="last_name" type="text" placeholder="Doe" />
+                    <input className="form-control appearance-none block w-full text-gray-600 bg-white border border-gray-300 rounded-sm py-3 px-4 mb-3 leading-tight focus:outline-none  focus:bg-white " id="grid-last-name" name="last_name" type="text" placeholder="Doe" />
                   </div>
                 </div>
                 <div className="flex flex-wrap -mx-3 mb-6">
@@ -49,7 +49,7 @@ const ContactForm = () => {
                     <label className="block uppercase tracking-wide -500 text-xs font-bold mb-2 text-red" htmlFor="grid-password" name="email">
                       E-mail
                     </label>
-                    <input className="form-control appearance-none block w-full bg-white text-gray-600 border border-gray-300 rounded-sm py-3 px-4 leading-tight focus:outline-none focus:border-indigo-500 focus:bg-white hover:border-indigo-500" id="email" name="email" type="email" placeholder="johndoe@email.com" />
+                    <input className="form-control appearance-none block w-full bg-white text-gray-600 border border-gray-300 rounded-sm py-3 px-4 leading-tight focus:outline-none  focus:bg-white " id="email" name="email" type="email" placeholder="johndoe@email.com" />
                   </div>
                 </div>
                 <div className="flex flex-wrap -mx-3 mb-2">
@@ -57,7 +57,7 @@ const ContactForm = () => {
                     <label className="block uppercase tracking-wide -500 text-xs font-bold mb-2 text-red" htmlFor="grid-password">
                       Message
                     </label>
-                    <textarea className="form-control no-resize appearance-none block w-full bg-white text-gray-600 border border-gray-300 rounded-sm py-3 px-4 mb-3 leading-tight focus:outline-none focus:border-indigo-500 focus:bg-white hover:border-indigo-500 h-48 resize-none" id="message" name="message"></textarea>
+                    <textarea className="form-control no-resize appearance-none block w-full bg-white text-gray-600 border border-gray-300 rounded-sm py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white  h-48 resize-none" id="message" name="message"></textarea>
                   </div>
                 </div>
                 <div className="md:flex md:items-center">

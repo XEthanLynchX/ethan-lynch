@@ -44,18 +44,17 @@ const About = () => {
 
         </div>
         <div className="w-full md:w-1/2">
-          <img src={About6} alt="Image" className="object-cover w-full h-full" />
+          <img src={About6} alt="Image" className="object-cover w-full h-full md:w-full md:h-auto" />
         </div>
       </div>
 
 
-      <div className="flex flex-col-reverse md:flex-row items-center justify-center w-full"
-      >
+      <div className="flex flex-col-reverse md:flex-row items-center justify-center w-full">
         <div className="w-full md:w-1/2">
-          <img src={About5} alt="Image" className="object-cover w-full h-full" />
+          <img src={About5} alt="Image" className="object-cover w-full h-full md:w-full md:h-auto" />
         </div>
 
-        <div className="w-full md:w-1/2 p-8 bg-bla">
+        <div className="w-full md:w-1/2 p-8 ">
 
           <div ><h2 className="text-6xl text-black leading-relaxed m-4 font-[Merriweather] font-bold mb-10 ">The Benefits of Pro Coaching </h2></div>
 
@@ -112,7 +111,7 @@ const About = () => {
 
         </div>
         <div className="w-full md:w-1/2">
-          <img src={About7} alt="Image" className="object-cover w-full h-full" />
+          <img src={About7} alt="Image" className="object-cover w-full h-full md:w-full md:h-auto" />
         </div>
       </div>
       
