@@ -93,7 +93,7 @@ const Programs = () => {
           <h1 class="text-5xl text-center font-extrabold tracking-tight text-gray-900 sm:text-4xl md:text-4xl md:text-left lg:text-4xl xl:text-5xl lg:text-left pb-10">
             <span class="block xl:inline" >1:1 Personal Training </span>
           </h1>
-          <div class="space-y-5 text-center md:text-left lg:text-left text-lg font-[georgia]">
+          <div class="space-y-5 text-center md:text-left lg:text-left text-lg font-[Georgia]">
           <p class="text-gray-500 xl:text-3xl md:text-xl text-xltext-semibold">
             ELC provides an elite level of science-based coaching to help you achieve your fitness goals.
           </p>
@@ -150,8 +150,8 @@ const Programs = () => {
           <h1 class="text-5xl text-center font-extrabold tracking-tight text-gray-900 sm:text-4xl md:text-4xl md:text-left lg:text-4xl xl:text-5xl lg:text-left pb-10">
             <span class="block xl:inline">Virtual Personal Training</span>
           </h1>
-          <div class="space-y-5 text-center md:text-left lg:text-left text-lg">
-          <p class="text-gray-500 xl:text-3xl md:text-xl text-xl ">
+          <div class="space-y-5 text-center md:text-left lg:text-left text-lg font-[Georgia]">
+          <p class="text-gray-500 xl:text-3xl md:text-xl text-xl  ">
             ELC offers an elite level of science-based coaching delivered virtually to help you achieve your fitness goals from anywhere in the world.
           </p>
 
@@ -244,8 +244,8 @@ const Programs = () => {
         <h1 class="text-5xl text-center font-extrabold tracking-tight text-gray-900 sm:text-4xl md:text-4xl md:text-right lg:text-4xl xl:text-5xl lg:text-right pb-10">
             <span class="block xl:inline">Men's Hypertrophy Program</span>
         </h1>
-        <div class="space-y-5 text-center md:text-left lg:text-left text-lg">
-            <p class="text-gray-500 xl:text-3xl md:text-xl text-xltext-semibold">
+        <div class="space-y-5 text-center md:text-left lg:text-left text-lg font-[Georgia]">
+            <p class="text-gray-500 xl:text-3xl md:text-xl text-xltext-semibold ">
               The men's training program at ELC is designed to cater to the diverse needs and aspirations of men seeking to optimize their fitness journey. 
             </p>
             <p class="text-gray-500 xl:text-3xl md:text-xl text-xl">
@@ -301,7 +301,7 @@ const Programs = () => {
         <h1 class="text-5xl text-center font-extrabold tracking-tight text-gray-900 sm:text-4xl md:text-4xl md:text-right lg:text-4xl xl:text-5xl lg:text-right pb-10">
             <span class="block xl:inline">Women's Hypertrophy Program</span>
         </h1>
-        <div class="space-y-5 text-center md:text-left lg:text-left text-lg">
+        <div class="space-y-5 text-center md:text-left lg:text-left text-lg font-[Georgia]">
             <p class="text-gray-500 xl:text-3xl md:text-xl text-xltext-semibold">
                 At ELC, the training program for women is meticulously designed to cater to the unique fitness needs and goals of women. 
             </p>
@@ -328,7 +328,7 @@ const Programs = () => {
           <h1 class="text-5xl text-center font-extrabold tracking-tight text-gray-900 sm:text-4xl md:text-4xl md:text-left lg:text-4xl xl:text-5xl lg:text-left pb-10">
             <span class="block xl:inline" >Nutrional Plan / Guidance  </span>
           </h1>
-          <div class="space-y-5 text-center md:text-left lg:text-left text-lg">
+          <div class="space-y-5 text-center md:text-left lg:text-left text-lg font-[Georgia]">
           <p class="text-gray-500 xl:text-3xl md:text-xl text-xl ">
             ELC offers a personalized nutrition program tailored to your specific goals, needs, and lifestyle.
           </p>

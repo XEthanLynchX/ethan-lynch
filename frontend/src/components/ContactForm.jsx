@@ -1,5 +1,5 @@
 import React from 'react';
-
+import { CiPaperplane } from "react-icons/ci";
 const ContactForm = () => {
   return (
     <section className="px-2 py-20 lg:py-10  md:px-0 ">
@@ -62,12 +62,11 @@ const ContactForm = () => {
                 </div>
                 <div className="md:flex md:items-center">
                   <div className="w-full">
-                    <button type="submit" className="w-full px-4 py-3 text-lg transition duration-300 ease-in-out transform hover:-translate-y-1 hover:scale-105 shadow-md hover:shadow-lg border-black font-semibold rounded-sm border bg-gradient-to-br focus:outline-none  text-red" name="button">
-                      <em className="fas fa-paper-plane pr-1" aria-hidden="true"></em>
+                    <button type="submit" className="w-full px-4 py-3 text-lg transition duration-300 ease-in-out transform hover:-translate-y-1 hover:scale-105 shadow-md hover:shadow-lg border-black font-semibold rounded-sm border bg-gradient-to-br focus:outline-none  text-red flex justify-center items-center" name="button">
                       Send
+                      <CiPaperplane className="w-6 h-6 ml-2" />
                     </button>
                   </div>
-                  
                 </div>
               </form>
               
