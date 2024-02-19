@@ -52,7 +52,7 @@ const Testimonials = () => {
         <div className="mb-4 md:mb-72 ml-4 md:ml-72 mt-8 md:mt-36">
           <h1 className="text-2xl md:text-7xl font-bold text-left mb-2">Client </h1>
           <h1 className="text-2xl md:text-7xl font-bold text-left mb-8 text-red">Transformations</h1>
-          <p className='text-xl md:text-2xl font-[roboto] font-semibold w-full md:w-5/6'>ELC takes pride in providing the highest quality service to clients. Below you will find several client transformations of ELC.</p>
+          <p className='text-xl md:text-2xl font-[Georgia] font-semibold w-full md:w-5/6'>ELC takes pride in providing the highest quality service to clients. Below you will find several client transformations of ELC.</p>
         </div>
         <div className="max-w-xl mx-auto mt-4 md:mt-0 md:mr-36">
           <img src={Ethan} alt="Ethan's Transformation" className="w-full md:h-full rounded-lg shadow-lg" />
@@ -60,7 +60,7 @@ const Testimonials = () => {
       </div>
       <div className="grid grid-cols-2 md:grid-cols-2 xl:grid-cols-2 gap-4 md:gap-8 xl:gap-12 px-4 md:px-72 xl:px-96">
   {testimonials.map((testimonial, index) => (
-    <div key={index} className="flex flex-col items-center m-4">
+    <div key={index} className="flex flex-col items-center m-4 font-[Georgia]">
       <div className="w-full md:w-72 xl:w-96">
         <img
           src={testimonial.image}

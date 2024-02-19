@@ -99,20 +99,13 @@ const ContactForm = () => {
             <h1 className="text-5xl text-center font-extrabold tracking-tight text-gray-900 sm:text-5xl md:text-4xl md:text-left lg:text-5xl xl:text-6xl lg:text-left lg:mb-5">
               <span className="block xl:inline">Get in contact!</span>
             </h1>
-            <p className="mx-auto text-base text-center md:text-left lg:text-left text-gray-500 sm:max-w-md lg:text-xl md:max-w-3xl pb-3">
+            <p className="mx-auto text-base text-center md:text-left lg:text-left text-gray-500 sm:max-w-md lg:text-xl md:max-w-3xl pb-3 font-[Georgia]">
               Feel free to reach out with any questions or inquiries.
             </p>
-            <p className="mx-auto text-base text-center md:text-left lg:text-left text-gray-500 sm:max-w-md lg:text-xl md:max-w-3xl pb-3">
-              If you have a question you can also take a look at the FAQ page to find your answer.
+            <p className="mx-auto text-base text-center md:text-left lg:text-left text-gray-500 sm:max-w-md lg:text-xl md:max-w-3xl pb-3 font-[Georgia]">
+              If you have a question you can also take a look at the FAQ section to find your answer.
             </p>
-            
-            <div className="py-3 pl-1 text-center lg:text-left md:text-left space-x-3">
-              
-              <a href="mailto:ethanlynchcoaching@gmail.com" target="_blank" rel="noreferrer">
-                <em className="far fa-envelope hover:-500 text-2xl" aria-hidden="true"></em>
-              </a>
-              <span className="text-gray-400 text-lg"> ethanlynchcoaching@gmail.com </span>             
-            </div>
+          
             
           </div>
           <div className="col-auto mx-auto w-full lg:w-full">

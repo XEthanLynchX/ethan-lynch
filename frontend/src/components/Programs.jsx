@@ -94,20 +94,20 @@ const Programs = () => {
             <span class="block xl:inline" >1:1 Personal Training </span>
           </h1>
           <div class="space-y-5 text-center md:text-left lg:text-left text-lg font-[Georgia]">
-          <p class="text-gray-500 xl:text-3xl md:text-xl text-xltext-semibold">
+          <p class=" xl:text-3xl md:text-xl text-xltext-semibold">
             ELC provides an elite level of science-based coaching to help you achieve your fitness goals.
           </p>
-          <p class="text-gray-500 xl:text-3xl md:text-xl text-xl">
+          <p class=" xl:text-3xl md:text-xl text-xl">
             ELC coaches personalize your training to match your lifestyle and objectives using an evidence-based approach to optimize results. The plan not only needs to be enjoyable to ensure consistency and adherence over the long term, but it also needs to be individualized and tailored to meet your needs as optimally and efficiently as possible, resulting in the greatest outcomes.
           </p>
-          <p class="text-gray-500 xl:text-3xl md:text-xl text-xl">
+          <p class=" xl:text-3xl md:text-xl text-xl">
             Coaching with ELC is ideal for individuals aspiring to elevate their physique and knowledge to the next level, seeking to accomplish their objectives in the most effective and sustainable manner. Together, as a team, we will collaborate towards your goals and develop a long-term, individualized, and periodized plan rooted in science-based principles.
           </p>
-          <p class="text-gray-500 xl:text-3xl md:text-xl text-xl">
+          <p class=" xl:text-3xl md:text-xl text-xl">
             Open communication holds paramount importance in my coaching. Building honesty and trust within the coach-client relationship is essential, as ELC is deeply invested in maximizing your results, sustainability, and overall value to your life.
           </p>
           
-          <p class="text-gray-500 xl:text-3xl md:text-xl text-xl font-semibold">
+          <p class=" xl:text-3xl md:text-xl text-xl font-semibold">
             If you're interested in our 1-on-1 in-person training program or have any questions about it, please don't hesitate to contact me. I'm here to provide personalized support and guidance to help you achieve your fitness goals!
           </p>
           </div>
@@ -125,8 +125,11 @@ const Programs = () => {
                   </h1>
                 </div>
                 <div class="col-auto text-center mt-1">
-                  <p class="text-right text-gray-500 font-bold text-xl text-white">
+                  <p class="text-right  font-bold text-xl text-white">
                     Price: $199.99
+                  </p>
+                  <p className="text-right text-red font-bold text-xs ">
+                     Recurring: Monthly
                   </p>
                 </div>
               </div>
@@ -151,23 +154,23 @@ const Programs = () => {
             <span class="block xl:inline">Virtual Personal Training</span>
           </h1>
           <div class="space-y-5 text-center md:text-left lg:text-left text-lg font-[Georgia]">
-          <p class="text-gray-500 xl:text-3xl md:text-xl text-xl  ">
+          <p class=" xl:text-3xl md:text-xl text-xl  ">
             ELC offers an elite level of science-based coaching delivered virtually to help you achieve your fitness goals from anywhere in the world.
           </p>
 
-          <p class="text-gray-500 xl:text-3xl md:text-xl text-xl">
+          <p class=" xl:text-3xl md:text-xl text-xl">
             ELC's online coaching program provides personalized training tailored to your lifestyle and objectives, leveraging an evidence-based approach to optimize results. Designed to be accessible from the comfort of your home or wherever you choose to train, our virtual coaching ensures flexibility and convenience without compromising on quality.
           </p>
 
-          <p class="text-gray-500 xl:text-3xl md:text-xl text-xl">
+          <p class=" xl:text-3xl md:text-xl text-xl">
             Coaching with ELC online offers the same level of expertise and individualization as our in-person services. Whether you're a busy professional, a stay-at-home parent, or someone with a hectic schedule, our virtual coaching adapts to your life, making it easier than ever to stay committed to your fitness journey. With real-time guidance and support delivered directly to your device, you'll have everything you need to succeed at your fingertips.
           </p>
 
-          <p class="text-gray-500 xl:text-3xl md:text-xl text-xl">
+          <p class=" xl:text-3xl md:text-xl text-xl">
             Open communication remains at the core of our online coaching philosophy. Despite the physical distance, we prioritize building a strong coach-client relationship based on honesty, trust, and mutual respect. Through regular check-ins, video calls, and messaging, we ensure that you feel supported, motivated, and accountable every step of the way.
           </p>
 
-          <p class="text-gray-500 xl:text-3xl md:text-xl text-xl font-semibold">
+          <p class=" xl:text-3xl md:text-xl text-xl font-semibold">
             If you have any questions or concerns, rest assured that the virtual doors are always open. Contact me today to start your online coaching journey with ELC.
           </p>
           </div>
@@ -187,9 +190,12 @@ const Programs = () => {
                   </h1>
                 </div>
                 <div class="col-auto text-center mt-1">   
-                <p class="text-right text-gray-500 font-bold text-xl">
+                <p class="text-right  font-bold text-xl">
                     Price: $150.00
                   </p>
+                <p className="text-right text-red font-bold text-xs ">
+                  Recurring: Monthly
+                </p>
                 </div>
               </div>
               <ul class="custom-bullet list-inside leading-relaxed m-4 font-font-[georgia] text-2xl">
@@ -221,9 +227,12 @@ const Programs = () => {
                           </h1>
                       </div>
                       <div class="col-auto text-center mt-1">
-                        <p class="text-right text-gray-500 font-bold text-xl">
+                        <p class="text-right  font-bold text-xl">
                               Price: $19.99
                           </p>
+                        <p className="text-right text-red font-bold text-xs ">
+                          One-time payment
+                        </p>
                       </div>
                   </div>
                   <ul class="custom-bullet list-inside leading-relaxed m-4 font-[georgia] text-2xl">
@@ -245,19 +254,19 @@ const Programs = () => {
             <span class="block xl:inline">Men's Hypertrophy Program</span>
         </h1>
         <div class="space-y-5 text-center md:text-left lg:text-left text-lg font-[Georgia]">
-            <p class="text-gray-500 xl:text-3xl md:text-xl text-xltext-semibold ">
+            <p class=" xl:text-3xl md:text-xl text-xltext-semibold ">
               The men's training program at ELC is designed to cater to the diverse needs and aspirations of men seeking to optimize their fitness journey. 
             </p>
-            <p class="text-gray-500 xl:text-3xl md:text-xl text-xl">
+            <p class=" xl:text-3xl md:text-xl text-xl">
               One of the key features of the men's program is its flexibility and customization. We recognize that busy schedules and personal preferences vary from person to person, which is why I offer custom workouts designed to fit seamlessly into your lifestyle. From the frequency and duration of sessions to exercise selection and intensity, the program adapts to your needs, ensuring maximum convenience and adherence.
             </p>
-            <p class="text-gray-500 xl:text-3xl md:text-xl text-xl">
+            <p class=" xl:text-3xl md:text-xl text-xl">
               Variety is the spice of life, and it's also a fundamental aspect of the men's training program. We incorporate diverse training modalities, techniques, and exercises to keep your workouts engaging and effective. By introducing variety, we can prevent boredom and monotony, keeping you motivated and excited to hit the gym day after day. 
             </p>
-            <p class="text-gray-500 xl:text-3xl md:text-xl text-xl">
+            <p class=" xl:text-3xl md:text-xl text-xl">
               Safety and proper form are paramount in the men's training program. We prioritize teaching you how to perform exercises correctly and safely to minimize the risk of injury and maximize the effectiveness of your workouts. my experienced coaching provides guidance and feedback to ensure you're executing each movement with proper technique and alignment. By mastering the fundamentals of exercise execution, you'll build a solid foundation for long-term progress and success.
             </p>
-            <p class="text-gray-500 xl:text-3xl md:text-xl text-xl font-semibold">
+            <p class=" xl:text-3xl md:text-xl text-xl font-semibold">
             If you have any questions or concerns regarding the men's training program, don't hesitate to reach out to me. I'm dedicated to helping you achieve your fitness goals!
             </p>
         </div>
@@ -278,8 +287,11 @@ const Programs = () => {
                           </h1>
                       </div>
                       <div class="col-auto text-center mt-1"> 
-                          <p class="text-right text-gray-500 font-bold text-xl">  
+                          <p class="text-right  font-bold text-xl">  
                               Price: $19.99
+                          </p>
+                          <p className="text-right text-red font-bold text-xs ">
+                            One-time payment
                           </p>
                       </div>
                   </div>
@@ -302,21 +314,21 @@ const Programs = () => {
             <span class="block xl:inline">Women's Hypertrophy Program</span>
         </h1>
         <div class="space-y-5 text-center md:text-left lg:text-left text-lg font-[Georgia]">
-            <p class="text-gray-500 xl:text-3xl md:text-xl text-xltext-semibold">
+            <p class=" xl:text-3xl md:text-xl text-xltext-semibold">
                 At ELC, the training program for women is meticulously designed to cater to the unique fitness needs and goals of women. 
             </p>
             
-            <p class="text-gray-500 xl:text-3xl md:text-xl text-xl">
+            <p class=" xl:text-3xl md:text-xl text-xl">
               Our approach to training goes beyond aesthetics; understanding the importance of empowering women through fitness. Each workout is thoughtfully crafted to challenge and inspire, fostering confidence and self-assurance both inside and outside the gym. By providing a supportive and motivating environment.
             </p>
           
-            <p class="text-gray-500 xl:text-3xl md:text-xl text-xl">
+            <p class=" xl:text-3xl md:text-xl text-xl">
               In addition to physical transformation, the training program emphasizes holistic wellness. I believe in nurturing a positive relationship with exercise and nutrition, promoting habits that contribute to long-term health and happiness. Through personalized coaching, nutritional guidance, and lifestyle support, you can make sustainable changes that extend far beyond the gym, fostering a balanced and fulfilling lifestyle.
             </p>
-            <p class="text-gray-500 xl:text-3xl md:text-xl text-xl">
+            <p class=" xl:text-3xl md:text-xl text-xl">
               Whether you're a beginner looking to kickstart your fitness journey or a seasoned athlete striving for new heights, the training program for women offers a comprehensive and personalized approach to help you reach your goals. 
             </p>
-            <p class="text-gray-500 xl:text-3xl md:text-xl text-xl font-semibold">
+            <p class=" xl:text-3xl md:text-xl text-xl font-semibold">
             If you have any questions or concerns regarding the women's training program, feel free to contact me. I'm here to support you on your fitness journey!
             </p>
         </div>
@@ -329,23 +341,23 @@ const Programs = () => {
             <span class="block xl:inline" >Nutrional Plan / Guidance  </span>
           </h1>
           <div class="space-y-5 text-center md:text-left lg:text-left text-lg font-[Georgia]">
-          <p class="text-gray-500 xl:text-3xl md:text-xl text-xl ">
+          <p class=" xl:text-3xl md:text-xl text-xl ">
             ELC offers a personalized nutrition program tailored to your specific goals, needs, and lifestyle.
           </p>
 
-          <p class="text-gray-500 xl:text-3xl md:text-xl text-xl">
+          <p class=" xl:text-3xl md:text-xl text-xl">
             Our nutrition program provides you with a customized meal plan meticulously designed to help you achieve your fitness objectives. Whether you're aiming to lose weight, build muscle, or improve overall health, we tailor your meals to suit your preferences, dietary restrictions, and lifestyle, ensuring optimal results.
           </p>
 
-          <p class="text-gray-500 xl:text-3xl md:text-xl text-xl">
+          <p class=" xl:text-3xl md:text-xl text-xl">
             With ELC's nutrition program, you'll not only receive a meal plan but also gain valuable knowledge about healthy eating habits. Learn how to make informed food choices, decipher nutrition labels, and understand the importance of balanced nutrition for sustained wellness. We empower you with the tools and understanding needed to make smart decisions about your diet, both at home and when dining out.
           </p>
 
-          <p class="text-gray-500 xl:text-3xl md:text-xl text-xl">
+          <p class=" xl:text-3xl md:text-xl text-xl">
             Our nutrition coaching goes beyond just prescribing meals; it's about equipping you with the skills and confidence to make lasting changes to your eating habits. By learning the fundamentals of nutrition and adopting healthier behaviors, you'll not only achieve your short-term goals but also lay the foundation for lifelong wellness.
           </p>
 
-          <p class="text-gray-500 xl:text-3xl md:text-xl text-xl font-semibold">
+          <p class=" xl:text-3xl md:text-xl text-xl font-semibold">
             Ready to transform your relationship with food and reach your nutritional goals? Contact us today to start your personalized nutrition journey with ELC.
           </p>
           </div>
@@ -363,8 +375,11 @@ const Programs = () => {
                   </h1>
                 </div>
                 <div class="col-auto text-center mt-1">
-                  <p class="text-right text-gray-500 font-bold text-xl">
+                  <p class="text-right  font-bold text-xl">
                     Price: $29.99
+                  </p>
+                  <p className="text-right text-red font-bold text-xs ">
+                    One-time payment
                   </p>
                 </div>
               </div>
