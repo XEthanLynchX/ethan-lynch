@@ -12,7 +12,7 @@ config = AutoConfig()
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 EMAIL_HOST = 'smtp.gmail.com'
-EMAIL_HOST_USER = 'ethanlynchcoaching'
+EMAIL_HOST_USER = 'ethanlynchcoaching@gmail.com'
 EMAIL_HOST_PASSWORD = config('EMAIL_HOST_PASSWORD')
 EMAIL_PORT = 587
 EMAIL_USE_TLS = True
@@ -45,6 +45,11 @@ MIDDLEWARE = [
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
     'corsheaders.middleware.CorsMiddleware',
+    'django.middleware.csrf.CsrfViewMiddleware',
+]
+
+CORS_ALLOWED_ORIGINS = [
+    'http://localhost:5173',
 ]
 
 ROOT_URLCONF = 'core.urls'
