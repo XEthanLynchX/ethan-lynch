@@ -5,7 +5,7 @@ from rest_framework.response import Response
 from django.shortcuts import redirect
 from rest_framework import status
 
-stripe.api_key = settings.STRIPE_TEST_SECRET_KEY
+stripe.api_key = settings.STRIPE_LIVE_SECRET_KEY
 
 class StripeCheckout(APIView):
     def post(self, request):

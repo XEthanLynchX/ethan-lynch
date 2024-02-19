@@ -139,7 +139,7 @@ const Programs = () => {
                 </li>
               </ul>
               <form action="./api/stripe/create-checkout-session" method="POST">
-                <input type="hidden" name="price_id" value="price_1OeSV9JYXhvyfXz9LTht4jUV" />
+                <input type="hidden" name="price_id" value="price_1OlPcRJYXhvyfXz9K9dUaXs1" />
                 <input type="hidden" name="mode" value="subscription" />
                 <button className="bg-lightred text-white font-bold py-2 px-4 rounded transition duration-200 ease-in-out transform hover:-translate-y-1 hover:scale-105 mt-2"> Purchase</button>
               </form>
@@ -186,12 +186,12 @@ const Programs = () => {
               <div class="grid-flow-col grid grid-cols-4">
                 <div class="col-span-3">
                   <h1 class="text-white lg:text-3xl md:text-3xl text-2xl font-semibold text-left pb-1">
-                    1:1 In Person Coaching
+                    Virtual Personal Training
                   </h1>
                 </div>
                 <div class="col-auto text-center mt-1">   
                 <p class="text-right  font-bold text-xl">
-                    Price: $150.00
+                    Price: $149.99
                   </p>
                 <p className="text-right text-red font-bold text-xs ">
                   Recurring: Monthly
@@ -200,11 +200,11 @@ const Programs = () => {
               </div>
               <ul class="custom-bullet list-inside leading-relaxed m-4 font-font-[georgia] text-2xl">
                 <li>
-                  <span class='font-bold'>High-Level Coaching by Ethan Lynch: </span> Personalized coaching that encompasses everything you need. Tailored to your unique needs, this one-on-one service employs a science-based approach, coupled with my expertise and meticulous programming, ensuring optimal results efficiently.
+                  <span class='font-bold'>High-Level Coaching by Ethan Lynch: </span> Unlock your potential with personalized online coaching. Tailored programs, science-based methods, and expert support. Start your journey today!
                 </li>
               </ul>
               <form action="./api/stripe/create-checkout-session" method="POST">
-                <input type="hidden" name="price_id" value="price_1OhlDkJYXhvyfXz9Cb8y2eBq" />
+                <input type="hidden" name="price_id" value="price_1OlPhUJYXhvyfXz9qBs1TJVg" />
                 <input type="hidden" name="mode" value="subscription" />
                 <button className="bg-blue text-white font-bold py-2 px-4 rounded transition duration-200 ease-in-out transform hover:-translate-y-1 hover:scale-105 mt-2"> Purchase</button>
               </form>
@@ -241,7 +241,7 @@ const Programs = () => {
                       </li>
                   </ul>
                   <form action="http://localhost:8000/api/stripe/create-checkout-session" method="POST">
-                      <input type="hidden" name="price_id" value="price_1OZPzPJYXhvyfXz93WqOem3x" />
+                      <input type="hidden" name="price_id" value="price_1OlPiTJYXhvyfXz93ke0zWxo" />
                       <input type="hidden" name="mode" value="payment" />
                       <button className="bg-lightred text-white font-bold py-2 px-4 rounded transition duration-200 ease-in-out transform hover:-translate-y-1 hover:scale-105 mt-2"> Purchase</button>
                   </form>
@@ -301,7 +301,7 @@ const Programs = () => {
                       </li>
                   </ul>
                   <form action="http://localhost:8000/api/stripe/create-checkout-session" method="POST">
-                      <input type="hidden" name="price_id" value="price_1OgG2LJYXhvyfXz9Ito4gZFC" />
+                      <input type="hidden" name="price_id" value="price_1OlPjJJYXhvyfXz98tDcR19Q" />
                       <input type="hidden" name="mode" value="payment" />
                       <button className="bg-blue text-white font-bold py-2 px-4 rounded transition duration-200 ease-in-out transform hover:-translate-y-1 hover:scale-105 mt-2"> Purchase</button>
                   </form>
@@ -385,11 +385,11 @@ const Programs = () => {
               </div>
               <ul class="custom-bullet list-inside leading-relaxed m-4 font-[georgia] text-2xl">
                 <li>
-                  <span class='font-bold'>Personalized Nutrition Plan: </span> Tailored to your unique needs, our nutrition program provides a customized meal plan designed to help you achieve your fitness goals.
+                  <span class='font-bold'>Personalized Nutrition Plan: </span> Tailored to your unique needs, the nutrition program provides a customized meal plan designed to help you achieve your fitness goals.
                 </li>
               </ul>
               <form action="./api/stripe/create-checkout-session" method="POST">
-                <input type="hidden" name="price_id" value="price_1OhlD5JYXhvyfXz9c7Xdi9Mb" />
+                <input type="hidden" name="price_id" value="price_1OlPngJYXhvyfXz9IbGl9zJe" />
                 <input type="hidden" name="mode" value="payment" />
                 <button className="bg-lightred text-white font-bold py-2 px-4 rounded transition duration-200 ease-in-out transform hover:-translate-y-1 hover:scale-105 mt-2"> Purchase</button>
               </form>
