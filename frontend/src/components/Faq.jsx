@@ -19,7 +19,7 @@ const FaqSection = () => {
   };
 
   return (
-    <div className="py-16 md:py-24 lg:py-24 bg-white lg:pt-36">
+    <div className="py-16 md:py-24 lg:py-24 bg-white lg:pt-36" id="faq">
       <div className="px-8 mx-auto max-w-7xl lg:px-16">
         <h3 className="mt-1 text-4xl font-bold text-gray-800 sm:mx-6 sm:text-3xl md:text-4xl lg:text-5xl text-center">
           Frequently Asked Questions
