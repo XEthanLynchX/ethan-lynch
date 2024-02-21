@@ -42,13 +42,14 @@ class Motivation extends React.Component {
     return (
       <div className="flex flex-col md:flex-row">
         <div className="w-full md:w-1/2 relative">
-          <video 
-            src={girl_running} 
-            autoPlay 
-            loop 
-            muted 
-            className="object-cover w-full h-full"
-          />
+        <video 
+  src={girl_running} 
+  autoPlay 
+  loop 
+  muted 
+  playsInline
+  className="object-cover w-full h-full"
+/>
           <div className="text-black font-[sans] absolute top-1/2 left-2/4 transform -translate-x-1/2  -translate-y-1/2 text-8xl font-bold">
             Grow
           </div>
