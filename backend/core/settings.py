@@ -10,7 +10,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 config = AutoConfig()
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 EMAIL_HOST = 'smtp.gmail.com'
 EMAIL_HOST_USER = 'ethanlynchcoaching@gmail.com'
 EMAIL_HOST_PASSWORD = config('EMAIL_HOST_PASSWORD')

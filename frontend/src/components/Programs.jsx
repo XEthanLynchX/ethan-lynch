@@ -138,7 +138,7 @@ const Programs = () => {
                   <span class='font-bold'>High-Level Coaching by Ethan Lynch: </span> Personalized coaching that encompasses everything you need. Tailored to your unique needs, this one-on-one service employs a science-based approach, coupled with my expertise and meticulous programming, ensuring optimal results efficiently.
                 </li>
               </ul>
-              <form action="./api/stripe/create-checkout-session" method="POST">
+              <form action="https:/ethan-lynch-coaching-415103.appspot.com/api/stripe/create-checkout-session" method="POST">
                 <input type="hidden" name="price_id" value="price_1OlPcRJYXhvyfXz9K9dUaXs1" />
                 <input type="hidden" name="mode" value="subscription" />
                 <button className="bg-lightred text-white font-bold py-2 px-4 rounded transition duration-200 ease-in-out transform hover:-translate-y-1 hover:scale-105 mt-2"> Purchase</button>
