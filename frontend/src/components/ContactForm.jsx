@@ -48,7 +48,7 @@ const ContactForm = () => {
       setErrors(newErrors);
     } else {
       try {
-        const response = await fetch('api/send-email/', {
+        const response = await fetch('https://ethan-lynch-coaching-415103.ue.r.appspot.com/api/send-email/', {
           method: 'POST',
           headers: {
             'Content-Type': 'application/json',

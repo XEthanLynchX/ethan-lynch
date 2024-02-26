@@ -8,31 +8,10 @@ import Program5 from '../imgs/programs/Program5.png';
 import Program6 from '../imgs/programs/Program6.png';
 import ELCLogo1 from '../imgs/programs/ELCLogo1.jpeg';
 import ELCLogo2 from '../imgs/programs/ELCLogo2.jpeg';
-import { useEffect } from 'react';
-import { useLocation } from 'react-router-dom';
-import QueryString from 'query-string';
+
 
 const Programs = () => {
 
-  const location = useLocation();
-  useEffect(() => {
-    // Check to see if this is a redirect back from Checkout
-    const values = QueryString.parse(location.search);
-    console.log(values);
-
-
-
-
-    if (values.success) {
-      console.log("Order placed! You will receive an email confirmation.");
-    }
-
-    if (values.canceled) {
-      console.log(
-        "Order canceled -- continue to shop around and checkout when you're ready."
-      );
-    }
-  }, []);
   
   return (
     <div className="p-8 bg-navy border-t-[12px]" id="programs " >
@@ -138,7 +117,7 @@ const Programs = () => {
                   <span class='font-bold'>High-Level Coaching by Ethan Lynch: </span> Personalized coaching that encompasses everything you need. Tailored to your unique needs, this one-on-one service employs a science-based approach, coupled with my expertise and meticulous programming, ensuring optimal results efficiently.
                 </li>
               </ul>
-              <form action="https:/ethan-lynch-coaching-415103/api/stripe/create-checkout-session/api/stripe/create-checkout-session" method="POST">
+              <form action="https://ethan-lynch-coaching-415103.ue.r.appspot.com/api/stripe/create-checkout-session" method="POST">
                 <input type="hidden" name="price_id" value="price_1OlPcRJYXhvyfXz9K9dUaXs1" />
                 <input type="hidden" name="mode" value="subscription" />
                 <button className="bg-lightred text-white font-bold py-2 px-4 rounded transition duration-200 ease-in-out transform hover:-translate-y-1 hover:scale-105 mt-2"> Purchase</button>
@@ -203,7 +182,7 @@ const Programs = () => {
                   <span class='font-bold'>High-Level Coaching by Ethan Lynch: </span> Unlock your potential with personalized online coaching. Tailored programs, science-based methods, and expert support. Start your journey today!
                 </li>
               </ul>
-              <form action="https:/ethan-lynch-coaching-415103/api/stripe/create-checkout-session/api/stripe/create-checkout-session" method="POST">
+              <form action="https://ethan-lynch-coaching-415103.ue.r.appspot.com/api/stripe/create-checkout-session" method="POST">
                 <input type="hidden" name="price_id" value="price_1OlPhUJYXhvyfXz9qBs1TJVg" />
                 <input type="hidden" name="mode" value="subscription" />
                 <button className="bg-blue text-white font-bold py-2 px-4 rounded transition duration-200 ease-in-out transform hover:-translate-y-1 hover:scale-105 mt-2"> Purchase</button>
@@ -240,7 +219,7 @@ const Programs = () => {
                           <span class='font-bold'>This program prioritizes hypertrophy: </span> aiming for balanced muscle development. It involves continuous programming tailored to optimize training using a science-based approach.
                       </li>
                   </ul>
-                  <form action="https:/ethan-lynch-coaching-415103/api/stripe/create-checkout-session" method="POST">
+                  <form action="https://ethan-lynch-coaching-415103.ue.r.appspot.com/api/stripe/create-checkout-session" method="POST">
                       <input type="hidden" name="price_id" value="price_1OlPiTJYXhvyfXz93ke0zWxo" />
                       <input type="hidden" name="mode" value="payment" />
                       <button className="bg-lightred text-white font-bold py-2 px-4 rounded transition duration-200 ease-in-out transform hover:-translate-y-1 hover:scale-105 mt-2"> Purchase</button>
@@ -300,7 +279,7 @@ const Programs = () => {
                           <span class='font-bold'>Prioritization on Core, Lower-Body, and Back : </span> targeting the abodminals, glutes, quads, hamstrings, lats, and delts to achieve a well-rounded V-taper, especially beneficial for women.
                       </li>
                   </ul>
-                  <form action="https:/ethan-lynch-coaching-415103/api/stripe/create-checkout-session/api/stripe/create-checkout-session" method="POST">
+                  <form action="https://ethan-lynch-coaching-415103.ue.r.appspot.com/api/stripe/create-checkout-session" method="POST">
                       <input type="hidden" name="price_id" value="price_1OlPjJJYXhvyfXz98tDcR19Q" />
                       <input type="hidden" name="mode" value="payment" />
                       <button className="bg-blue text-white font-bold py-2 px-4 rounded transition duration-200 ease-in-out transform hover:-translate-y-1 hover:scale-105 mt-2"> Purchase</button>
@@ -388,7 +367,7 @@ const Programs = () => {
                   <span class='font-bold'>Personalized Nutrition Plan: </span> Tailored to your unique needs, the nutrition program provides a customized meal plan designed to help you achieve your fitness goals.
                 </li>
               </ul>
-              <form action="https:/ethan-lynch-coaching-415103/api/stripe/create-checkout-session/api/stripe/create-checkout-session" method="POST">
+              <form action="https://ethan-lynch-coaching-415103.ue.r.appspot.com/api/stripe/create-checkout-session" method="POST">
                 <input type="hidden" name="price_id" value="price_1OlPngJYXhvyfXz9IbGl9zJe" />
                 <input type="hidden" name="mode" value="payment" />
                 <button className="bg-lightred text-white font-bold py-2 px-4 rounded transition duration-200 ease-in-out transform hover:-translate-y-1 hover:scale-105 mt-2"> Purchase</button>

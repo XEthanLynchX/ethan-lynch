@@ -50,6 +50,8 @@ MIDDLEWARE = [
 
 CORS_ALLOWED_ORIGINS = [
     'http://localhost:5173',
+    'https://ethan-lynch-coaching-9b340.web.app/',
+
 ]
 
 ROOT_URLCONF = 'core.urls'
