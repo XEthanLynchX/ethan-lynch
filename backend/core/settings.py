@@ -19,6 +19,8 @@ EMAIL_USE_TLS = True
 EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
 
 ALLOWED_HOSTS = []
+STATIC_ROOT = '../static'
+
 
 # Application definition
 
@@ -48,11 +50,13 @@ MIDDLEWARE = [
     'django.middleware.csrf.CsrfViewMiddleware',
 ]
 
-CORS_ALLOWED_ORIGINS = [
-    'http://localhost:5173',
-    'https://ethan-lynch-coaching-9b340.web.app/',
 
-]
+CORS_ALLOW_CREDENTIALS = True
+CORS_ALLOW_ALL_ORIGINS = True
+
+DJSTRIPE_WEBHOOK_VALIDATION = 'retrieve_event'
+
+
 
 ROOT_URLCONF = 'core.urls'
 
@@ -73,6 +77,8 @@ TEMPLATES = [
 ]
 
 WSGI_APPLICATION = 'core.wsgi.application'
+
+
 
 
 
@@ -118,7 +124,11 @@ USE_TZ = True
 
 
 
-STATIC_URL = 'static/'
+STATIC_URL = '/static/'
+
+STATICFILES_DIRS = [
+    os.path.join(BASE_DIR, 'backend', 'static'),
+]
 
 SITE_URL = 'http://localhost:5173'
 
