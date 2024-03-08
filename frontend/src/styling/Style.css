@@ -2,6 +2,11 @@
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
 
+html, body {
+  overflow-x: hidden; /* Prevent horizontal scrolling */
+}
+
+
 .progress-bar {
   background-color: #1a1a1a; 
   height: 60px; 

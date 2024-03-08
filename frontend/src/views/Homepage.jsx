@@ -9,7 +9,6 @@ import Faq from '../components/Faq';
 import { motion, useScroll, useSpring } from 'framer-motion';
 import '../styling/style.css';
 
-
 const Homepage = () => {
   const { scrollYProgress } = useScroll();
   const scaleX = useSpring(scrollYProgress, {
@@ -21,38 +20,24 @@ const Homepage = () => {
   return (
     <div>
       <motion.div className="progress-bar" style={{ scaleX }} />
-
-     
       
       <Navbar />
-
       <Motivation />
-
       <div id="about"> 
         <About />
       </div>
-
       <div id="programs">
         <Programs />
       </div>
-
       <div id="testimonials">
         <Testimonial />
       </div>
-
       <div id="faq">
         <Faq />
       </div>
-
       <div id="contact">
         <ContactForm />
       </div>
-
-      
-
-      
-      
-
     </div>
   );
 };

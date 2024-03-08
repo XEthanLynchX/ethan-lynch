@@ -47,7 +47,7 @@ const Navbar = () => {
         </button>
       </div>
 
-      <div className={`font-semibold font-[monospace] ${textColor} text-xl ${isOpen ? "hidden" : ""} md:block`}>
+      <div className={`font-semibold font-[monospace] ${textColor} ${isSmallScreen ? "text-sm" : "text-xl"} ${isOpen ? "hidden" : ""} md:block`}>
         <ul>
           <li className='transition duration-200 ease-in-out transform hover:-translate-y-1 hover:scale-110'><a href="#about">About</a></li>
           <li className='transition duration-200 ease-in-out transform hover:-translate-y-1 hover:scale-110'><a href="#programs">Programs</a></li>
