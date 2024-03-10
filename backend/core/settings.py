@@ -76,7 +76,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'backend.corewsgi.application'
+WSGI_APPLICATION = 'core.wsgi.application'
 
 
 
