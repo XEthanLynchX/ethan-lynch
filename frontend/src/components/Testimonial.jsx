@@ -47,32 +47,32 @@ const Testimonials = () => {
   }, []);
 
   return (
-    <div className="p-8 bg-navy text-white border-black border-t-[12px] border-b-[12px] ">
-      <div className="flex flex-col md:flex-row justify-between items-center">
-        <div className="mb-4 md:mb-72 ml-4 md:ml-72 mt-8 md:mt-36">
-          <h1 className="text-2xl md:text-7xl font-bold text-left mb-2">Client </h1>
-          <h1 className="text-2xl md:text-7xl font-bold text-left mb-8 text-red">Transformations</h1>
-          <p className='text-xl md:text-2xl font-[Georgia] font-semibold w-full md:w-5/6'>ELC takes pride in providing the highest quality service to clients. Below you will find several client transformations of ELC.</p>
+    <div className="p-8 bg-navy text-white border-black border-t-[12px] border-b-[12px]">
+      <div className="flex flex-col md:flex-row justify-between items-center mb-8 md:mb-12">
+        <div className="mb-4 md:mb-0 md:max-w-[50%] ml-4 md:ml-12 mt-8 md:mt-20">
+          <h1 className="text-2xl md:text-4xl lg:text-5xl font-bold text-left mb-2">Client </h1>
+          <h1 className="text-2xl md:text-4xl lg:text-5xl font-bold text-left mb-4 text-red">Transformations</h1>
+          <p className='text-lg md:text-xl lg:text-2xl font-[Georgia] font-semibold'>ELC takes pride in providing the highest quality service to clients. Below you will find several client transformations of ELC.</p>
         </div>
-        <div className="max-w-xl mx-auto mt-4 md:mt-0 md:mr-36">
-          <img src={Ethan} alt="Ethan's Transformation" className="w-full md:h-full rounded-lg shadow-lg" />
+        <div className="max-w-[100%] mx-auto mt-4 md:mt-0 md:mr-12">
+          <img src={Ethan} alt="Ethan's Transformation" className="w-full md:h-auto rounded-lg shadow-lg mx-auto" />
         </div>
       </div>
-      <div className="grid grid-cols-2 md:grid-cols-2 xl:grid-cols-2 gap-4 md:gap-8 xl:gap-12 px-4 md:px-72 xl:px-96">
-  {testimonials.map((testimonial, index) => (
-    <div key={index} className="flex flex-col items-center m-4 font-[Georgia]">
-      <div className="w-full md:w-72 xl:w-96">
-        <img
-          src={testimonial.image}
-          alt={testimonial.alt}
-          className="w-full h-auto object-cover rounded-md shadow-lg cursor-pointer"
-          onClick={() => openModal(testimonial.image)}
-        />
-        <p className="mt-2 text-center xl:text-xl">"{testimonial.quote}"</p>
+      <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-2 gap-4 md:gap-8 xl:gap-12 px-4 md:px-12 xl:px-24 mt-36">
+        {testimonials.map((testimonial, index) => (
+          <div key={index} className="flex flex-col items-center m-4 font-[Georgia]">
+            <div className="w-full md:w-72 xl:w-96">
+              <img
+                src={testimonial.image}
+                alt={testimonial.alt}
+                className="w-full h-auto object-cover rounded-md shadow-lg cursor-pointer"
+                onClick={() => openModal(testimonial.image)}
+              />
+              <p className="mt-2 text-center xl:text-xl">"{testimonial.quote}"</p>
+            </div>
+          </div>
+        ))}
       </div>
-    </div>
-  ))}
-</div>
       {modalImage && (
         <div className="fixed top-0 left-0 w-full h-full flex justify-center items-center bg-black bg-opacity-90 z-50">
           <div className="relative" id="modal-container">

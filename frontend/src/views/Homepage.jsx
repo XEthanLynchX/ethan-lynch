@@ -14,7 +14,7 @@ const Homepage = () => {
   const scaleX = useSpring(scrollYProgress, {
     stiffness: 100,
     damping: 30,
-    restDelta: 0.01
+    restDelta: 0.0
   });
 
   return (

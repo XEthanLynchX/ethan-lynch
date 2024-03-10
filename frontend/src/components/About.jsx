@@ -21,8 +21,8 @@ const images = [
 const About = () => {
   return (
     <div className="flex flex-col items-center justify-center bg-berige">
-      <div className="flex flex-col md:flex-row items-center justify-center w-full">
-        <div className="w-full md:w-1/2 p-10">
+      <div className="flex flex-col lg:flex-row items-center justify-center w-full">
+        <div className="w-full lg:w-1/2 p-10">
           <div ><h2 className="text-6xl text-black leading-relaxed m-4 font-[Merriweather] font-bold mb-10 ">Foundations</h2></div>
 
           <h4 className="text-4xl text-black leading-relaxed m-4 font-[Merriweather] font-semibold "> Science-Based </h4>
@@ -43,18 +43,18 @@ const About = () => {
           <p className="text-xl text-black leading-relaxed m-4 mt- font-[Georgia]">In My coaching approach, I emphasize the importance of mindfulness for mental resilience. By fostering a strong mind-body connection, individuals can optimize their performance potential. Through the incorporation of stress management techniques, together we'll promote overall well-being, creating a holistic framework for sustained success in both fitness and life. </p>
 
         </div>
-        <div className="w-full md:w-1/2">
+        <div className="w-full lg:w-1/2 mt-4 lg:mt-0">
           <img src={About6} alt="Image" className="object-cover w-full h-full md:w-full md:h-auto" />
         </div>
       </div>
 
 
-      <div className="flex flex-col-reverse md:flex-row items-center justify-center w-full">
-        <div className="w-full md:w-1/2">
+      <div className="flex flex-col-reverse lg:flex-row items-center justify-center w-full">
+        <div className="w-full lg:w-1/2 mt-4 lg:mt-0">
           <img src={About5} alt="Image" className="object-cover w-full h-full md:w-full md:h-auto" />
         </div>
 
-        <div className="w-full md:w-1/2 p-8 ">
+        <div className="w-full lg:w-1/2 p-8">
 
           <div ><h2 className="text-6xl text-black leading-relaxed m-4 font-[Merriweather] font-bold mb-10 ">The Benefits of Pro Coaching </h2></div>
 
@@ -87,9 +87,8 @@ const About = () => {
       
         
       </div>
-
-      <div className="flex flex-col md:flex-row items-center justify-center w-full border-black ">
-      <div className="w-full md:w-1/2 p-10">
+      <div className="flex flex-col lg:flex-row items-center justify-center w-full border-black ">
+        <div className="w-full lg:w-1/2 p-10">
           <div ><h2 className="text-6xl text-black leading-relaxed m-4 font-[Merriweather] font-bold mb-10 border-b-6 ">About Me</h2></div>
 
           <h4 className="text-4xl text-black leading-relaxed m-4 font-[Merriweather] font-semibold "> Who Am I</h4>
@@ -110,7 +109,7 @@ const About = () => {
           <p className="text-xl text-black leading-relaxed m-4 mt- font-[Georgia]">Whether you're a beginner looking to kickstart your fitness journey or someone seeking to take their workouts to the next level, I'm here to support you. Let's embark on this journey together, turning your fitness goals into a reality and making it the best and most transformative experience of your life.  </p>
 
         </div>
-        <div className="w-full md:w-1/2">
+        <div className="w-full lg:w-1/2">
           <img src={About7} alt="Image" className="object-cover w-full h-full md:w-full md:h-auto" />
         </div>
       </div>

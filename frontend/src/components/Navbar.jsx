@@ -1,14 +1,14 @@
 import React, { useState, useEffect } from 'react';
 import { motion } from "framer-motion"
 import { HiOutlineMail } from 'react-icons/hi'
-import logo from '../imgs/logo.png'; // Import the logo image
-import '../styling/Navbar.css'; // Import the existing Navbar styles
+import logo from '../imgs/logo.png'; 
+import '../styling/Navbar.css'; 
 
 const Navbar = () => {
   const [navbarColor, setNavbarColor] = useState('bg-berige');
   const [textColor, setTextColor] = useState('text-black');
   const [isOpen, setIsOpen] = useState(false);
-  const isSmallScreen = window.innerWidth <= 768; // Check if the screen is small
+  const isSmallScreen = window.innerWidth <= 767; 
 
   useEffect(() => {
     const changeNavbarColor = () => {
@@ -37,7 +37,7 @@ const Navbar = () => {
 
   return (
     <div className={`navbar ${navbarColor}`}>
-      <div className="bold">
+      <div className={`bold ${!isOpen && isSmallScreen ? "hidden" : ""}`}>
         <img src={logo} alt="logo" />
       </div>
 
