@@ -57,7 +57,7 @@ const Programs = () => {
             <h6 className="italic mb-4 -mt-4 font-semibold font-[Georgia]">Available WorldWide</h6>
             <img src={Program3} alt="Nutrition Advice / Plan" className="object-cover w-full h-96 border-8 border-black rounded-lg" />
             <p className="text-xl mt-4 font-[Georgia]">Explore the benefits of a customized nutrition plan. With a designed dietary strategy that aligns with your goals, adapts to your lifestyle, and guides you towards a healthier and happier life.</p>
-            <div className='flex justify-center space-x-4'>
+            <div className='flex justify-center space-x-4 mt-8'>
               <a href="#diet" className="bg-gray text-white font-bold py-2 px-4 rounded transition duration-200 ease-in-out transform hover:-translate-y-1 hover:scale-110 mt-2">
                 Learn More
               </a>
