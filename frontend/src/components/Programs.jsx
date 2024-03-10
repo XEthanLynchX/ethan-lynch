@@ -195,7 +195,7 @@ const Programs = () => {
         </div>
       </div>
   
-      <div class="grid grid-cols-1 lg:grid-cols-5 lg:gap-4 lg:px-10 lg:pt-8 md:grid md:grid-cols-2 md:gap-4 md:px-10 md:pt-5 text-white">
+      <div class="grid grid-cols-1 lg:grid-cols-5 lg:gap-4 lg:px-10 lg:pt-8 md:grid md:grid-cols-2 md:gap-4 md:px-10 md:pt-5 text-white mr-36">
       <div class="col-auto lg:col-span-2 mx-auto w-full lg:w-full lg:pl-10 order-2 lg:order-1 mb-24">
         <div class="col-auto rounded-sm bg-gray-100 shadow-md px-10 border-4 border-black hover:border-gray-300">
           <div class="flex justify-center self-center items-center -mx-10">
@@ -231,7 +231,7 @@ const Programs = () => {
         </div>
       </div>
 
-      <div class="col-auto lg:col-span-3 lg:pr-5 lg:pt-10 pb-10 order-1 lg:order-2" id='routine'>
+      <div class="col-auto lg:col-span-3 lg:pr-5 lg:pt-10 pb-10 order-1 lg:order-2 ml-10" id='routine'>
         <h1 class="text-5xl text-center font-extrabold tracking-tight text-gray-900 sm:text-4xl md:text-4xl md:text-left lg:text-4xl xl:text-5xl lg:text-left pb-10">
             <span class="block xl:inline">Men's Hypertrophy Program</span>
         </h1>
@@ -255,7 +255,7 @@ const Programs = () => {
     </div>
   </div>
 
-  <div class="grid grid-cols-1 lg:grid-cols-5 lg:gap-4 lg:px-10 lg:pt-8 md:grid md:grid-cols-2 md:gap-4 md:px-10 md:pt-5 text-white">
+  <div class="grid grid-cols-1 lg:grid-cols-5 lg:gap-4 lg:px-10 lg:pt-8 md:grid md:grid-cols-2 md:gap-4 md:px-10 md:pt-5 text-white mr-36">
     <div class="col-auto lg:col-span-2 mx-auto w-full lg:w-full lg:pl-10 order-2 lg:order-1 mb-24">
     <div class="col-auto rounded-sm bg-gray-100 shadow-md px-10 border-4 border-black hover:border-gray-300">
       <div class="flex justify-center self-center items-center -mx-10">
@@ -291,7 +291,7 @@ const Programs = () => {
     </div>
   </div>
 
-      <div class="col-auto lg:col-span-3 lg:pr-5 lg:pt-10 pb-10 order-1 lg:order-2 " >
+      <div class="col-auto lg:col-span-3 lg:pr-5 lg:pt-10 pb-10 order-1 lg:order-2 ml-10" >
         <h1 class="text-5xl text-center font-extrabold tracking-tight text-gray-900 sm:text-4xl md:text-4xl md:text-left lg:text-4xl xl:text-5xl lg:text-left pb-10">
             <span class="block xl:inline">Women's Hypertrophy Program</span>
         </h1>

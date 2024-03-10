@@ -55,7 +55,12 @@ const Testimonials = () => {
           <p className='text-lg md:text-xl lg:text-2xl font-[Georgia] font-semibold'>ELC takes pride in providing the highest quality service to clients. Below you will find several client transformations of ELC.</p>
         </div>
         <div className="max-w-[100%] mx-auto mt-4 md:mt-0 md:mr-12">
-          <img src={Ethan} alt="Ethan's Transformation" className="w-full md:h-auto rounded-lg shadow-lg mx-auto" />
+          <img
+            src={Ethan}
+            alt="Ethan's Transformation"
+            className="w-full md:h-auto rounded-lg shadow-lg mx-auto cursor-pointer"
+            onClick={() => openModal(Ethan)}
+          />
         </div>
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-2 gap-4 md:gap-8 xl:gap-12 px-4 md:px-12 xl:px-24 mt-36">
