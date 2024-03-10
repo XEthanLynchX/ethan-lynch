@@ -7,7 +7,7 @@ import '../styling/Navbar.css';
 const Navbar = () => {
   const [navbarColor, setNavbarColor] = useState('bg-berige');
   const [textColor, setTextColor] = useState('text-black');
-  const [isOpen, setIsOpen] = useState(false);
+  const [isOpen, setIsOpen] = useState(true);
   const isSmallScreen = window.innerWidth <= 767; 
 
   useEffect(() => {
@@ -15,6 +15,7 @@ const Navbar = () => {
       const aboutSectionPosition = 0;
       const programsSectionPosition = document.getElementById('programs').offsetTop;
       const faqSectionPosition = document.getElementById('faq').offsetTop;
+      
 
       if (window.scrollY >= aboutSectionPosition && window.scrollY < programsSectionPosition) {
         setNavbarColor('bg-berige');
@@ -58,12 +59,12 @@ const Navbar = () => {
 
       {/* Contact Box */}
       {isOpen && (
-        <div className={`absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0 transition duration-200 ease-in-out transform hover:-translate-y-1 hover:scale-110 hover:text-red ${isOpen ? "" : "sm:-mr-10"}`}>
-          <a href="#contact" className={`inline-flex items-center justify-center px-4 py-2 text-base font-medium leading-6 ${textColor} whitespace-no-wrap bg-indigo-600 border border-indigo-700 rounded-sm shadow-sm hover:bg-indigo-700 focus:outline-none`}>
-            <HiOutlineMail className="w-6 h-6" />
-            <span className="hidden sm:block pl-2">Contact</span>
-          </a>
-        </div>
+       <div className={`absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0 transition duration-200 ease-in-out transform hover:-translate-y-1 hover:scale-110 hover:text-red ${isOpen ? "" : "sm:-mr-10"}`}>
+       <a href="#contact" className={`inline-flex items-center justify-center px-4 py-2 text-base font-medium leading-6 ${textColor} whitespace-no-wrap bg-indigo-600 border border-indigo-700 rounded-sm shadow-sm hover:bg-indigo-700 focus:outline-none`}>
+         <HiOutlineMail className="w-6 h-6" />
+         <span className="hidden sm:block pl-2">Contact</span>
+       </a>
+     </div>
       )}
     </div>
   );

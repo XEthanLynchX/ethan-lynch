@@ -96,7 +96,7 @@ const ContactForm = () => {
       <div className="max-w-7xl lg:px-10 px-3 mx-auto justify-items-center align-middle">
         <div className="grid-flow-col lg:grid lg:grid-cols-2 lg:gap-4 lg:px-10 lg:pt-8 md:grid md:grid-cols-2 md:gap-4 md:px-10 md:pt-5">
           <div className="col-auto lg:pr-5 lg:pt-20 ">
-            <h1 className="text-5xl text-center font-extrabold tracking-tight text-gray-900 sm:text-5xl md:text-4xl md:text-left lg:text-5xl xl:text-6xl lg:text-left lg:mb-5">
+            <h1 className="text-5xl text-center font-extrabold tracking-tight text-gray-900 sm:text-5xl md:text-4xl md:text-left lg:text-5xl xl:text-6xl lg:text-left lg:mb-5 sm:mb-10">
               <span className="block xl:inline">Get in contact!</span>
             </h1>
             <p className="mx-auto text-base text-center md:text-left lg:text-left text-gray-500 sm:max-w-md lg:text-xl md:max-w-3xl pb-3 font-[Georgia]">
